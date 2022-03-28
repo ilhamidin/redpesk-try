@@ -73,6 +73,10 @@ cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
 
 %check
 
+%files
+%defattr(-,root,root)
+%{_libexecdir}/redtest/%{name}/*
+
 %clean
 
 %changelog

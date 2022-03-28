@@ -30,7 +30,7 @@ Version: 1.0.1
 Release: 0%{?dist}
 License: APL2.0
 Summary: helloworld service set to be used in redpesk
-URL:     https://github.com/redpesk-samples/helloworld-binding
+URL:     https://github.com/ilhamidin/redpesk-try
 Source0: %{name}-%{version}.tar.gz
 
 Requires: afb-binder
@@ -67,18 +67,19 @@ The helloworld agl service gathers two bindings.
 %afm_build_cmake
 
 %install
+
 mkdir -p %{buildroot}%{_libexecdir}/redtest/%{name}/
 cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
-
-%files
-%defattr(-,root,root)
-%{_libexecdir}/redtest/%{name}/*
 
 %afm_makeinstall
 
 %check
 
 %clean
+
+%files
+%defattr(-,root,root)
+%{_libexecdir}/%{name}/*
 
 %changelog
 

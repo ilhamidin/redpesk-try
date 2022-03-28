@@ -69,13 +69,14 @@ The helloworld agl service gathers two bindings.
 %install
 mkdir -p %{buildroot}%{_libexecdir}/redtest/%{name}/
 cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
-%afm_makeinstall
-
-%check
 
 %files
 %defattr(-,root,root)
 %{_libexecdir}/redtest/%{name}/*
+
+%afm_makeinstall
+
+%check
 
 %clean
 

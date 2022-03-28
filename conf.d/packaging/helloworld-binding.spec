@@ -34,6 +34,10 @@ URL:     https://github.com/redpesk-samples/helloworld-binding
 Source0: %{name}-%{version}.tar.gz
 
 Requires: afb-binder
+Requires: python3-requests
+Requires: python3-tap.py
+Requires: python3-pytest
+Requires: python3-pytest-tap
 
 BuildRequires: afm-rpm-macros
 BuildRequires: cmake
@@ -43,16 +47,6 @@ BuildRequires: pkgconfig(json-c)
 BuildRequires: pkgconfig(libsystemd) >= 222
 BuildRequires: pkgconfig(afb-binding)
 BuildRequires: pkgconfig(afb-libhelpers)
-
-%package redtest
-Summary:        redtest subpackage of the helloworld API
-Requires:       python3-requests
-Requires:       python3-tap.py
-Requires:       python3-pytest
-Requires:       python3-pytest-tap
-
-%description redtest
-Tests subpackage for the helloworld API package. The tests results generated follows the TAP format.
 
 %description
 The helloworld agl service gathers two bindings.

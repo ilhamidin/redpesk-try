@@ -34,6 +34,7 @@ URL:     https://github.com/ilhamidin/redpesk-try
 Source0: %{name}-%{version}.tar.gz
 
 Requires: afb-binder
+Requires: mock
 Requires: python3-requests
 Requires: python3-tap.py
 Requires: python3-pytest

@@ -35,10 +35,10 @@ Source0: %{name}-%{version}.tar.gz
 
 Requires: afb-binder
 Requires: mock
-Requires: python3-requests
-Requires: python3-tap.py
-Requires: python3-pytest
-Requires: python3-pytest-tap
+#Requires: python3-requests
+#Requires: python3-tap.py
+#Requires: python3-pytest
+#Requires: python3-pytest-tap
 
 BuildRequires: afm-rpm-macros
 BuildRequires: cmake

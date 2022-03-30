@@ -17,7 +17,7 @@
 # Temporary redefinition of afm_files_redtest
 # To delete when afm-rpm-macros will be updated in all stacks
 %define afm_files_redtest \
-%defattr(770,root,users) \
+%define _unpackaged_files_terminate_build 0 \
 %dir %{_libexecdir}/redtest/ \
 %dir %{_libexecdir}/redtest/%{name}/ \
 %dir %{afm_extra_files_test} \
@@ -30,13 +30,13 @@ Version: 1.0.1
 Release: 0%{?dist}
 License: APL2.0
 Summary: helloworld service set to be used in redpesk
-URL:     https://github.com/redpesk-samples/helloworld-binding
+URL:     https://github.com/ilhamidin/redpesk-try
 Source0: %{name}-%{version}.tar.gz
 
 Requires: afb-binder
 
-BuildRequires: mock
 BuildRequires: afm-rpm-macros
+BuildRequires: mock
 BuildRequires: cmake
 BuildRequires: gcc gcc-c++
 BuildRequires: afb-cmake-modules
@@ -44,16 +44,6 @@ BuildRequires: pkgconfig(json-c)
 BuildRequires: pkgconfig(libsystemd) >= 222
 BuildRequires: pkgconfig(afb-binding)
 BuildRequires: pkgconfig(afb-libhelpers)
-
-%package redtest
-Summary:        redtest subpackage of the helloworld API
-Requires:       python3-requests
-Requires:       python3-tap.py
-Requires:       python3-pytest
-Requires:       python3-pytest-tap
-
-%description redtest
-Tests subpackage for the helloworld API package. The tests results generated follows the TAP format.
 
 %description
 The helloworld agl service gathers two bindings.
@@ -74,17 +64,18 @@ The helloworld agl service gathers two bindings.
 %afm_build_cmake
 
 %install
-%afm_makeinstall
+
 mkdir -p %{buildroot}%{_libexecdir}/redtest/%{name}/
 cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
+
+%afm_makeinstall
 
 %check
 
 %clean
 
-%files redtest
-%defattr(-,root,root)
-%{_libexecdir}/redtest/%{name}/*
+%files
+%defattr(-,root,root,-)
 
 %changelog
 

@@ -73,6 +73,7 @@ cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
 %check
 
 %clean
+rm -rf %{buildroot}
 
 %changelog
 

@@ -20,9 +20,6 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/include/json-c"
   "/usr/include/afb"
-  "../gpiod-mlk/HL7692/*.h"
-  "../gpiod-mlk/rwgpio/*.h"
-  "../gpiod-mlk/rwserial/*.h"
   )
 
 # Targets to which this target links.

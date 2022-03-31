@@ -16,14 +16,15 @@
 
 # Add target to project dependency list
 PROJECT_TARGET_ADD(serial-modem)
-	# Include directories
-	include_directories(HL7692/*.h rwgpio/*.h rwserial/*.h)
 	# Define project Targets
 	ADD_LIBRARY(${TARGET_NAME} MODULE 
 					modem-bindingv3.c
 					HL7692/HL7692-Driver.c
+					HL7692/HL7692-Driver.h
 					rwgpio/rwgpio.c
-					rwserial/rwserial.c)
+					rwgpio/rwgpio.h
+					rwserial/rwserial.c
+					rwserial/rwserial.h)
 
 	# Binder exposes a unique public entry point
 	SET_TARGET_PROPERTIES(${TARGET_NAME} PROPERTIES

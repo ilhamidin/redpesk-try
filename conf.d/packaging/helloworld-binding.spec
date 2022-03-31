@@ -17,7 +17,7 @@
 # Temporary redefinition of afm_files_redtest
 # To delete when afm-rpm-macros will be updated in all stacks
 %define afm_files_redtest \
-%define _unpackaged_files_terminate_build 0 \
+#%define _unpackaged_files_terminate_build 0 \
 %dir %{_libexecdir}/redtest/ \
 %dir %{_libexecdir}/redtest/%{name}/ \
 %dir %{afm_extra_files_test} \

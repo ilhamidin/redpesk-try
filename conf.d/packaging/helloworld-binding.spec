@@ -74,7 +74,7 @@ cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
 
 %clean
 
-%files redtest
+%files
 %defattr(-,root,root)
 %{_libexecdir}/redtest/%{name}/*
 

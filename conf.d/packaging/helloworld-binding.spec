@@ -72,6 +72,7 @@ cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
 
 %files
 /var/local/lib/afm/applications/%{name}/*
+/var/local/lib/afm/applications/libexec/redtest/%{name}/*
 
 %check
 

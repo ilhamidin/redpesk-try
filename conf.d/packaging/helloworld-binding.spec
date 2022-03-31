@@ -50,6 +50,16 @@ The helloworld agl service gathers two bindings.
 - helloworld-skeleton: Increment a counter
 - helloworld-subscribe-event: Subscribe and get notified whether an event is emited
 
+%package redtest
+Summary:        redtest subpackage of the helloworld API
+Requires:       python3-requests
+Requires:       python3-tap.py
+Requires:       python3-pytest
+Requires:       python3-pytest-tap
+
+%description redtest
+Tests subpackage for the helloworld API package. The tests results generated follows the TAP format.
+
 # main package: default install in /var/local/lib/afm/applications/%%{name}
 %afm_package
 # test package: default install in /var/local/lib/afm/applications/%%{name}-test
@@ -73,7 +83,10 @@ cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
 %check
 
 %clean
-rm -rf %{buildroot}
+
+%files redtest
+%defattr(-,root,root)
+%{_libexecdir}/redtest/%{name}/*
 
 %changelog
 

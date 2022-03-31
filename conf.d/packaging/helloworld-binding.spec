@@ -70,13 +70,13 @@ cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
 
 %afm_makeinstall
 
-%check
-
-%clean
-
 %files
 %defattr(-,root,root)
 %dir /var/local/lib/afm/applications/%{name}
+
+%check
+
+%clean
 
 %changelog
 

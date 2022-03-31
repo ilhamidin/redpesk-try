@@ -76,7 +76,7 @@ cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
 
 %files -f INSTALLED_FILES
 %defattr(-,root,root)
-#%{_libexecdir}/redtest/%{name}/*
+%dir /var/local/lib/afm/applications/%{name}
 
 %changelog
 

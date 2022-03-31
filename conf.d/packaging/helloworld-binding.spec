@@ -74,7 +74,7 @@ cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
 
 %clean
 
-%files
+%files helloworld-binding-redtest
 %defattr(-,root,root)
 %{_libexecdir}/redtest/%{name}/*
 

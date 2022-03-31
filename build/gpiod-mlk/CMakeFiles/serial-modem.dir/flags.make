@@ -6,5 +6,5 @@ C_FLAGS = -g -fPIC   -Wall -Wextra -Wconversion -Wno-unused-parameter -Wno-sign-
 
 C_DEFINES = -Dserial_modem_EXPORTS
 
-C_INCLUDES = -I/usr/include/json-c -I/usr/include/afb 
+C_INCLUDES = -I/usr/include/json-c -I/usr/include/afb -I"/home/administrator/Documents/redpesk-try/gpiod-mlk/HL7692/*.h" -I"/home/administrator/Documents/redpesk-try/gpiod-mlk/rwgpio/*.h" -I"/home/administrator/Documents/redpesk-try/gpiod-mlk/rwserial/*.h" 
 

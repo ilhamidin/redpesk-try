@@ -13,7 +13,8 @@
 			"ADD_LIBRARY",
 			"add_compile_options",
 			"include",
-			"INCLUDE_DIRECTORIES"
+			"INCLUDE_DIRECTORIES",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -32,7 +33,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 20,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -185,6 +186,12 @@
 				"file" : 1,
 				"line" : 139,
 				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
 			}
 		]
 	},
@@ -276,6 +283,18 @@
 				{
 					"backtrace" : 28,
 					"path" : "/usr/include/afb"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/HL7692/*.h"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/rwgpio/*.h"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/rwserial/*.h"
 				}
 			],
 			"language" : "C",

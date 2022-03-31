@@ -16,6 +16,8 @@
 
 # Add target to project dependency list
 PROJECT_TARGET_ADD(serial-modem)
+	# Include directories
+	include_directories(HL7692/*.h rwgpio/*.h rwserial/*.h)
 	# Define project Targets
 	ADD_LIBRARY(${TARGET_NAME} MODULE 
 					modem-bindingv3.c

@@ -1,0 +1,6 @@
+# Target labels
+ TEST-CONFIG
+# Source files and their labels
+/home/administrator/Documents/redpesk-try/build/test/afb-test/etc/CMakeFiles/helloworld-config
+/home/administrator/Documents/redpesk-try/build/test/afb-test/etc/CMakeFiles/helloworld-config.rule
+/home/administrator/Documents/redpesk-try/build/test/afb-test/etc/helloworld-config.rule

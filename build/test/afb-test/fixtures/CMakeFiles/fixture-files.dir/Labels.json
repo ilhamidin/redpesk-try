@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/build/test/afb-test/fixtures/CMakeFiles/fixture-files"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/build/test/afb-test/fixtures/CMakeFiles/fixture-files.rule"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/build/test/afb-test/fixtures/fixture-files.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"TEST-DATA"
+		],
+		"name" : "fixture-files"
+	}
+}

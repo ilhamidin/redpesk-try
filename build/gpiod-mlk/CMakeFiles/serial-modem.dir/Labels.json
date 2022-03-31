@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/modem-bindingv3.c"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/HL7692/HL7692-Driver.c"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/rwgpio/rwgpio.c"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/rwserial/rwserial.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BINDING"
+		],
+		"name" : "serial-modem"
+	}
+}

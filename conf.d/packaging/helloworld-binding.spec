@@ -25,21 +25,17 @@
 %{afm_extra_files_test} \
 %{nil}
 
-Name:    helloworld-binding
-Version: 1.0.1
+Name:    serial-binding
+Version: 1.0
 Release: 0%{?dist}
 License: APL2.0
-Summary: helloworld service set to be used in redpesk
+Summary: Modem service set to be used in redpesk
 URL:     https://github.com/ilhamidin/redpesk-try
 Source0: %{name}-%{version}.tar.gz
 
 Requires: afb-binder
-Requires: mock
-#Requires: python3-requests
-#Requires: python3-tap.py
-#Requires: python3-pytest
-#Requires: python3-pytest-tap
 
+BuildRequires: mock
 BuildRequires: afm-rpm-macros
 BuildRequires: cmake
 BuildRequires: gcc gcc-c++
@@ -50,9 +46,7 @@ BuildRequires: pkgconfig(afb-binding)
 BuildRequires: pkgconfig(afb-libhelpers)
 
 %description
-The helloworld agl service gathers two bindings.
-- helloworld-skeleton: Increment a counter
-- helloworld-subscribe-event: Subscribe and get notified whether an event is emited
+Enable serial binding to communicate with modem
 
 # main package: default install in /var/local/lib/afm/applications/%%{name}
 %afm_package

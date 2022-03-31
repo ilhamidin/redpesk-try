@@ -1,0 +1,6 @@
+# Target labels
+ TEST-DATA
+# Source files and their labels
+/home/administrator/Documents/redpesk-try/build/test/afb-test/fixtures/CMakeFiles/fixture-files
+/home/administrator/Documents/redpesk-try/build/test/afb-test/fixtures/CMakeFiles/fixture-files.rule
+/home/administrator/Documents/redpesk-try/build/test/afb-test/fixtures/fixture-files.rule

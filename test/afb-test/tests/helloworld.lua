@@ -23,15 +23,15 @@ function _callback(responseJ)
 end
 
 function _callbackError(responseJ)
-  _AFT.assertStrContains(responseJ.request.info, "verb pingfail unknown within api helloworld")
+  _AFT.assertStrContains(responseJ.request.info, "verb pingfail unknown within api modembinding")
 end
 
-_AFT.testVerbStatusSuccess('testPingSuccess','helloworld', 'ping', {})
+_AFT.testVerbStatusSuccess('testPingSuccess','modembinding', 'ping', {})
 _AFT.setBefore("testPingSuccess",function() print("~~~~~ Begin testPingSuccess ~~~~~") end)
 _AFT.setAfter("testPingSuccess",function() print("~~~~~ End testPingSuccess ~~~~~") end)
 
-_AFT.testVerbResponseEquals('testPingSuccessAndResponse','helloworld', 'ping', {}, "Ping count = %d")
-_AFT.testVerbCb('testPingSuccessCallback','helloworld', 'ping', {}, _callback)
+_AFT.testVerbResponseEquals('testPingSuccessAndResponse','modembinding', 'ping', {}, "Ping count = %d")
+_AFT.testVerbCb('testPingSuccessCallback','modembinding', 'ping', {}, _callback)
 
-_AFT.testVerbStatusError('testPingError', 'helloworld', 'pingfail', {})
-_AFT.testVerbResponseEqualsError('testPingErrorAndResponse', 'helloworld', 'pingfail', {}, "Ping Binder Daemon succeeds")
+_AFT.testVerbStatusError('testPingError', 'modembinding', 'pingfail', {})
+_AFT.testVerbResponseEqualsError('testPingErrorAndResponse', 'modembinding', 'pingfail', {}, "Ping Binder Daemon succeeds")

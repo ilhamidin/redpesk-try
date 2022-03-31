@@ -1,0 +1,6 @@
+# Target labels
+ HTDOCS
+# Source files and their labels
+/home/administrator/Documents/redpesk-try/build/htdocs/CMakeFiles/htdocs
+/home/administrator/Documents/redpesk-try/build/htdocs/CMakeFiles/htdocs.rule
+/home/administrator/Documents/redpesk-try/build/htdocs/htdocs.rule

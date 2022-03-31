@@ -1,6 +1,6 @@
 Priority: optional
 Maintainer: unknown <unknown@debian.org>
-Source: helloworld-binding
+Source: serial-binding
 Build-Depends: debhelper (>= 5),pkg-config,
  cmake,
  afb-cmake-modules,
@@ -12,20 +12,20 @@ Build-Depends: debhelper (>= 5),pkg-config,
 Standards-Version: 3.8.2
 Homepage: https://github.com/redpesk-samples/helloworld-binding
 
-Package: helloworld-binding-bin
+Package: serial-binding-bin
 Section: libs
 Architecture: any
 Depends: afb-binder
-Description: helloworld service set to be used in redpesk
+Description: serial service set to be used in redpesk
 
-Package: helloworld-binding-test
+Package: serial-binding-test
 Section: libs
 Architecture: any
-Depends: helloworld-binding-bin, afb-test-bin, jq
-Description: helloworld service test suite
+Depends: serial-binding-bin, afb-test-bin, jq
+Description: serial service test suite
 
-Package: helloworld-binding-redtest
+Package: serial-binding-redtest
 Section: libs
 Architecture: any
-Depends: helloworld-binding-test
-Description: helloworld service redtest suite
+Depends: serial-binding-test
+Description: serial service redtest suite

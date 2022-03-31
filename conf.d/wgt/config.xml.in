@@ -7,11 +7,9 @@
   <author>@PROJECT_AUTHOR@ &lt;@PROJECT_AUTHOR_MAIL@&gt;</author>
   <license>@PROJECT_LICENSE@</license>
   <feature name="urn:AGL:widget:provided-api">
-     <param name="helloworld" value="ws" />
-     <param name="helloworld-event" value="ws" />
+     <param name="modembinding" value="ws" />
   </feature>
   <feature name="urn:AGL:widget:required-binding">
-     <param name="lib/afb-helloworld-skeleton.so" value="local" />
-     <param name="lib/afb-helloworld-subscribe-event.so" value="local" />
+     <param name="lib/afb-serial-modem.so" value="local" />
   </feature>
 </widget>

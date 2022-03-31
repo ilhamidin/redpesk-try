@@ -1,0 +1,370 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "gpiod-mlk",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gpiod-mlk",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "htdocs",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "htdocs",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "redtest",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "redtest"
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				},
+				{
+					"build" : "test/afb-test",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "test/afb-test"
+				},
+				{
+					"build" : "test/afb-test/etc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "test/afb-test/etc",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "test/afb-test/fixtures",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "test/afb-test/fixtures",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "test/afb-test/tests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "test/afb-test/tests",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "helloworld-binding",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "autobuild::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autobuild-Debug-295636f884149f0a88eb.json",
+					"name" : "autobuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "fixture-files::@f61c24e65c3433d5d598",
+					"jsonFile" : "target-fixture-files-Debug-7d2e5cd6c5a0934abffb.json",
+					"name" : "fixture-files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "helloworld-binding_build_done::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helloworld-binding_build_done-Debug-8f46ad3b4f29de7d50bb.json",
+					"name" : "helloworld-binding_build_done",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "helloworld-config::@fefa895444fa9a70514c",
+					"jsonFile" : "target-helloworld-config-Debug-42abc2accf153069ea97.json",
+					"name" : "helloworld-config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "htdocs::@e9bbf7d6ea2c94609245",
+					"jsonFile" : "target-htdocs-Debug-1eedc87e17225be811ed.json",
+					"name" : "htdocs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "populate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-populate-Debug-d6ca11b92232a1f24eb8.json",
+					"name" : "populate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prepare_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prepare_package-Debug-e2abb67e9de29970d688.json",
+					"name" : "prepare_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prepare_package_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prepare_package_test-Debug-16fc79714af013c7c257.json",
+					"name" : "prepare_package_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_populate_fixture-files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_populate_fixture-files-Debug-9a0ca33e8701fa5a22f1.json",
+					"name" : "project_populate_fixture-files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_populate_helloworld-config::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_populate_helloworld-config-Debug-7508e28abac91b98d9a9.json",
+					"name" : "project_populate_helloworld-config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_populate_htdocs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_populate_htdocs-Debug-d3cac7c75ad373c3e6d1.json",
+					"name" : "project_populate_htdocs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_populate_serial-modem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_populate_serial-modem-Debug-fa82503e0786639bfbfc.json",
+					"name" : "project_populate_serial-modem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_populate_test-files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_populate_test-files-Debug-e82be9f7b5a0a59f0fc7.json",
+					"name" : "project_populate_test-files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "remote-target-populate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-remote-target-populate-Debug-395c13b20afed86ce290.json",
+					"name" : "remote-target-populate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "serial-modem::@78fc2931dacfdf2a70c5",
+					"jsonFile" : "target-serial-modem-Debug-55e37b84c55d9c2777a7.json",
+					"name" : "serial-modem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test-files::@aa4c974b243f9dec0e19",
+					"jsonFile" : "target-test-files-Debug-113c3b7710442df0f257.json",
+					"name" : "test-files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-tree-Debug-a397733a85ce0d79ca5d.json",
+					"name" : "test-tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_widget::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_widget-Debug-02515607539be1deca5f.json",
+					"name" : "test_widget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_widget_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_widget_files-Debug-295ff1dfe53beb1395f2.json",
+					"name" : "test_widget_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "widget::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-widget-Debug-d9644f312a77ecc2ee5e.json",
+					"name" : "widget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "widget-target-install::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-widget-target-install-Debug-b070259957c4b8385293.json",
+					"name" : "widget-target-install",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "widget_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-widget_files-Debug-729aa7ca3098690190fb.json",
+					"name" : "widget_files",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/administrator/Documents/redpesk-try/build",
+		"source" : "/home/administrator/Documents/redpesk-try"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

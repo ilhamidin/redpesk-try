@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/build/test/afb-test/etc/CMakeFiles/helloworld-config"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/build/test/afb-test/etc/CMakeFiles/helloworld-config.rule"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/build/test/afb-test/etc/helloworld-config.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"TEST-CONFIG"
+		],
+		"name" : "helloworld-config"
+	}
+}

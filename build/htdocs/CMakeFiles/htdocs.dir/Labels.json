@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/build/htdocs/CMakeFiles/htdocs"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/build/htdocs/CMakeFiles/htdocs.rule"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/build/htdocs/htdocs.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"HTDOCS"
+		],
+		"name" : "htdocs"
+	}
+}

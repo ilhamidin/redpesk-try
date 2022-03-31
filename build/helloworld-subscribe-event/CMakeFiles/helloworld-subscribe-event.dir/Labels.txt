@@ -1,0 +1,4 @@
+# Target labels
+ BINDING
+# Source files and their labels
+/home/administrator/Documents/redpesk-try/helloworld-subscribe-event/helloworld-event-service-binding.c

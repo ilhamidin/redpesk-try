@@ -14,8 +14,8 @@
 # limitations under the License.
 ###########################################################################
 
-set(BINDING_NAME "helloworld-binding")
-set(BINDING_TEST_NAME "helloworld-binding-test")
+set(BINDING_NAME "serial-binding")
+set(BINDING_TEST_NAME "serial-binding-test")
 
 configure_file(run-redtest.in run-redtest @ONLY)
 

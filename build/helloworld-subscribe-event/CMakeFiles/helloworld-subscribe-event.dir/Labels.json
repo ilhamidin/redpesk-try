@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/helloworld-subscribe-event/helloworld-event-service-binding.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BINDING"
+		],
+		"name" : "helloworld-subscribe-event"
+	}
+}

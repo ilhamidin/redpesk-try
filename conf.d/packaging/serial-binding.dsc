@@ -1,6 +1,6 @@
 Format: 1.0
-Source: helloworld-binding
-Binary: helloworld-binding-bin
+Source: serial-binding
+Binary: serial-binding-bin
 Architecture: any
 Version: 1.0.0
 Maintainer: unknown <unknown@debian.org>

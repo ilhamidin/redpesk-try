@@ -71,8 +71,7 @@ cp -a redtest/. %{buildroot}%{_libexecdir}/redtest/%{name}/
 %afm_makeinstall
 
 %files
-%defattr(-,root,root)
-%dir /var/local/lib/afm/applications/%{name}
+%{buildroot}/var/local/lib/afm/applications/%{name}/*
 
 %check
 

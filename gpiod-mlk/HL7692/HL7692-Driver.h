@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 /* include serial lib */
-#include "rwserial.h"
+#include "../rwserial/rwserial.h"
 /* for sleep */
 #include <unistd.h>
 

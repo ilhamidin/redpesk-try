@@ -10,6 +10,6 @@
      <param name="modembinding" value="ws" />
   </feature>
   <feature name="urn:AGL:widget:required-binding">
-     <param name="lib/afb-serial-modem.so" value="local" />
+     <param name="lib/afb-modem-binding.so" value="local" />
   </feature>
 </widget>

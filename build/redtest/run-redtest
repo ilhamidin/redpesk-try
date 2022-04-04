@@ -1,7 +1,7 @@
 #!/bin/bash
 
-BINDING_NAME="serial-binding"
-BINDING_TEST_NAME="serial-binding-test"
+BINDING_NAME="modem-binding"
+BINDING_TEST_NAME="modem-binding-test"
 AFB_TEST_BINDER="afbtest"
 
 # Get the name of the test binder

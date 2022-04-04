@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/libexec/redtest/serial-binding" TYPE PROGRAM FILES "/home/administrator/Documents/redpesk-try/build/redtest/run-redtest")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/libexec/redtest/modem-binding" TYPE PROGRAM FILES "/home/administrator/Documents/redpesk-try/build/redtest/run-redtest")
 endif()
 

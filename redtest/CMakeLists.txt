@@ -14,8 +14,8 @@
 # limitations under the License.
 ###########################################################################
 
-set(BINDING_NAME "serial-binding")
-set(BINDING_TEST_NAME "serial-binding-test")
+set(BINDING_NAME "modem-binding")
+set(BINDING_TEST_NAME "modem-binding-test")
 
 configure_file(run-redtest.in run-redtest @ONLY)
 

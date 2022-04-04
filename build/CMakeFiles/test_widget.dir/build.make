@@ -53,15 +53,15 @@ CMAKE_BINARY_DIR = /home/administrator/Documents/redpesk-try/build
 # Include the progress variables for this target.
 include CMakeFiles/test_widget.dir/progress.make
 
-CMakeFiles/test_widget: helloworld-binding-debug-test.wgt
+CMakeFiles/test_widget: modem-binding-debug-test.wgt
 
 
-helloworld-binding-debug-test.wgt: gpiod-mlk/afb-serial-modem.so
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating helloworld-binding-debug-test.wgt"
-	/usr/bin/zip -f -o helloworld-binding-debug-test.wgt /home/administrator/Documents/redpesk-try/build/package-test
+modem-binding-debug-test.wgt: gpiod-mlk/afb-modem-bindingv3.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating modem-binding-debug-test.wgt"
+	/usr/bin/zip -f -o modem-binding-debug-test.wgt /home/administrator/Documents/redpesk-try/build/package-test
 
 test_widget: CMakeFiles/test_widget
-test_widget: helloworld-binding-debug-test.wgt
+test_widget: modem-binding-debug-test.wgt
 test_widget: CMakeFiles/test_widget.dir/build.make
 
 .PHONY : test_widget

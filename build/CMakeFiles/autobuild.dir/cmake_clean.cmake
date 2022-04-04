@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "../autobuild/agl/autobuild"
   "../autobuild/linux/autobuild"
-  "helloworld-binding-debug-test.wgt"
-  "helloworld-binding-debug.wgt"
+  "modem-binding-debug-test.wgt"
+  "modem-binding-debug.wgt"
   "CMakeFiles/autobuild"
 )
 

@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/administrator/Documents/redpesk-try/build
 # Include the progress variables for this target.
 include CMakeFiles/test_widget_files.dir/progress.make
 
-CMakeFiles/test_widget_files: gpiod-mlk/afb-serial-modem.so
+CMakeFiles/test_widget_files: gpiod-mlk/afb-modem-bindingv3.so
 CMakeFiles/test_widget_files: package-test/icon.png
 CMakeFiles/test_widget_files: package-test/config.xml
 CMakeFiles/test_widget_files: package-test/bin/launcher

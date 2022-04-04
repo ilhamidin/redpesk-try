@@ -1,4 +1,4 @@
-# agl-service-helloworld
+# agl-service-helloworld (DEPRECATED) (NEED TO UPDATE)
 
 A binding example for AGL, implemented in a redpesk context
 ![rp_image](https://avatars2.githubusercontent.com/u/58298458?s=400&v=4?raw=true)

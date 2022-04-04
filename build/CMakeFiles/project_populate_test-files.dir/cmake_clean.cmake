@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "helloworld-binding-debug-test.wgt"
-  "helloworld-binding-debug.wgt"
+  "modem-binding-debug-test.wgt"
+  "modem-binding-debug.wgt"
   "CMakeFiles/project_populate_test-files"
   "package-test/var/test-files"
 )

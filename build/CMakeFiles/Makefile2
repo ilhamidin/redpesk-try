@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/administrator/Documents/redpesk-try/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/helloworld-binding_build_done.dir/all
+all: CMakeFiles/modem-binding_build_done.dir/all
 all: CMakeFiles/autobuild.dir/all
 all: gpiod-mlk/all
 all: htdocs/all
@@ -71,7 +71,7 @@ preinstall: test/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/helloworld-binding_build_done.dir/clean
+clean: CMakeFiles/modem-binding_build_done.dir/clean
 clean: CMakeFiles/widget-target-install.dir/clean
 clean: CMakeFiles/test_widget.dir/clean
 clean: CMakeFiles/test_widget_files.dir/clean
@@ -80,13 +80,13 @@ clean: CMakeFiles/test-tree.dir/clean
 clean: CMakeFiles/prepare_package.dir/clean
 clean: CMakeFiles/project_populate_test-files.dir/clean
 clean: CMakeFiles/prepare_package_test.dir/clean
+clean: CMakeFiles/project_populate_modem-bindingv3.dir/clean
 clean: CMakeFiles/populate.dir/clean
-clean: CMakeFiles/autobuild.dir/clean
-clean: CMakeFiles/project_populate_fixture-files.dir/clean
 clean: CMakeFiles/project_populate_htdocs.dir/clean
-clean: CMakeFiles/project_populate_serial-modem.dir/clean
 clean: CMakeFiles/project_populate_helloworld-config.dir/clean
 clean: CMakeFiles/widget_files.dir/clean
+clean: CMakeFiles/autobuild.dir/clean
+clean: CMakeFiles/project_populate_fixture-files.dir/clean
 clean: CMakeFiles/remote-target-populate.dir/clean
 clean: gpiod-mlk/clean
 clean: htdocs/clean
@@ -99,7 +99,7 @@ clean: test/clean
 # Directory level rules for directory gpiod-mlk
 
 # Recursive "all" directory target.
-gpiod-mlk/all: gpiod-mlk/CMakeFiles/serial-modem.dir/all
+gpiod-mlk/all: gpiod-mlk/CMakeFiles/modem-bindingv3.dir/all
 
 .PHONY : gpiod-mlk/all
 
@@ -109,7 +109,7 @@ gpiod-mlk/preinstall:
 .PHONY : gpiod-mlk/preinstall
 
 # Recursive "clean" directory target.
-gpiod-mlk/clean: gpiod-mlk/CMakeFiles/serial-modem.dir/clean
+gpiod-mlk/clean: gpiod-mlk/CMakeFiles/modem-bindingv3.dir/clean
 
 .PHONY : gpiod-mlk/clean
 
@@ -246,36 +246,36 @@ test/afb-test/tests/clean: test/afb-test/tests/CMakeFiles/test-files.dir/clean
 .PHONY : test/afb-test/tests/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/helloworld-binding_build_done.dir
+# Target rules for target CMakeFiles/modem-binding_build_done.dir
 
 # All Build rule for target.
-CMakeFiles/helloworld-binding_build_done.dir/all: CMakeFiles/populate.dir/all
-CMakeFiles/helloworld-binding_build_done.dir/all: gpiod-mlk/CMakeFiles/serial-modem.dir/all
-CMakeFiles/helloworld-binding_build_done.dir/all: htdocs/CMakeFiles/htdocs.dir/all
-CMakeFiles/helloworld-binding_build_done.dir/all: test/afb-test/etc/CMakeFiles/helloworld-config.dir/all
-CMakeFiles/helloworld-binding_build_done.dir/all: test/afb-test/fixtures/CMakeFiles/fixture-files.dir/all
-CMakeFiles/helloworld-binding_build_done.dir/all: test/afb-test/tests/CMakeFiles/test-files.dir/all
-	$(MAKE) -f CMakeFiles/helloworld-binding_build_done.dir/build.make CMakeFiles/helloworld-binding_build_done.dir/depend
-	$(MAKE) -f CMakeFiles/helloworld-binding_build_done.dir/build.make CMakeFiles/helloworld-binding_build_done.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num= "Built target helloworld-binding_build_done"
-.PHONY : CMakeFiles/helloworld-binding_build_done.dir/all
+CMakeFiles/modem-binding_build_done.dir/all: CMakeFiles/populate.dir/all
+CMakeFiles/modem-binding_build_done.dir/all: gpiod-mlk/CMakeFiles/modem-bindingv3.dir/all
+CMakeFiles/modem-binding_build_done.dir/all: htdocs/CMakeFiles/htdocs.dir/all
+CMakeFiles/modem-binding_build_done.dir/all: test/afb-test/etc/CMakeFiles/helloworld-config.dir/all
+CMakeFiles/modem-binding_build_done.dir/all: test/afb-test/fixtures/CMakeFiles/fixture-files.dir/all
+CMakeFiles/modem-binding_build_done.dir/all: test/afb-test/tests/CMakeFiles/test-files.dir/all
+	$(MAKE) -f CMakeFiles/modem-binding_build_done.dir/build.make CMakeFiles/modem-binding_build_done.dir/depend
+	$(MAKE) -f CMakeFiles/modem-binding_build_done.dir/build.make CMakeFiles/modem-binding_build_done.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num= "Built target modem-binding_build_done"
+.PHONY : CMakeFiles/modem-binding_build_done.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/helloworld-binding_build_done.dir/rule: cmake_check_build_system
+CMakeFiles/modem-binding_build_done.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 26
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/helloworld-binding_build_done.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/modem-binding_build_done.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 0
-.PHONY : CMakeFiles/helloworld-binding_build_done.dir/rule
+.PHONY : CMakeFiles/modem-binding_build_done.dir/rule
 
 # Convenience name for target.
-helloworld-binding_build_done: CMakeFiles/helloworld-binding_build_done.dir/rule
+modem-binding_build_done: CMakeFiles/modem-binding_build_done.dir/rule
 
-.PHONY : helloworld-binding_build_done
+.PHONY : modem-binding_build_done
 
 # clean rule for target.
-CMakeFiles/helloworld-binding_build_done.dir/clean:
-	$(MAKE) -f CMakeFiles/helloworld-binding_build_done.dir/build.make CMakeFiles/helloworld-binding_build_done.dir/clean
-.PHONY : CMakeFiles/helloworld-binding_build_done.dir/clean
+CMakeFiles/modem-binding_build_done.dir/clean:
+	$(MAKE) -f CMakeFiles/modem-binding_build_done.dir/build.make CMakeFiles/modem-binding_build_done.dir/clean
+.PHONY : CMakeFiles/modem-binding_build_done.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/widget-target-install.dir
@@ -309,7 +309,7 @@ CMakeFiles/widget-target-install.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/test_widget.dir/all: CMakeFiles/test_widget_files.dir/all
-CMakeFiles/test_widget.dir/all: gpiod-mlk/CMakeFiles/serial-modem.dir/all
+CMakeFiles/test_widget.dir/all: gpiod-mlk/CMakeFiles/modem-bindingv3.dir/all
 CMakeFiles/test_widget.dir/all: htdocs/CMakeFiles/htdocs.dir/all
 CMakeFiles/test_widget.dir/all: test/afb-test/etc/CMakeFiles/helloworld-config.dir/all
 CMakeFiles/test_widget.dir/all: test/afb-test/fixtures/CMakeFiles/fixture-files.dir/all
@@ -341,7 +341,7 @@ CMakeFiles/test_widget.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/test_widget_files.dir/all: CMakeFiles/populate.dir/all
-CMakeFiles/test_widget_files.dir/all: gpiod-mlk/CMakeFiles/serial-modem.dir/all
+CMakeFiles/test_widget_files.dir/all: gpiod-mlk/CMakeFiles/modem-bindingv3.dir/all
 CMakeFiles/test_widget_files.dir/all: htdocs/CMakeFiles/htdocs.dir/all
 CMakeFiles/test_widget_files.dir/all: test/afb-test/etc/CMakeFiles/helloworld-config.dir/all
 CMakeFiles/test_widget_files.dir/all: test/afb-test/fixtures/CMakeFiles/fixture-files.dir/all
@@ -373,7 +373,7 @@ CMakeFiles/test_widget_files.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/widget.dir/all: CMakeFiles/widget_files.dir/all
-CMakeFiles/widget.dir/all: gpiod-mlk/CMakeFiles/serial-modem.dir/all
+CMakeFiles/widget.dir/all: gpiod-mlk/CMakeFiles/modem-bindingv3.dir/all
 CMakeFiles/widget.dir/all: htdocs/CMakeFiles/htdocs.dir/all
 CMakeFiles/widget.dir/all: test/afb-test/etc/CMakeFiles/helloworld-config.dir/all
 CMakeFiles/widget.dir/all: test/afb-test/fixtures/CMakeFiles/fixture-files.dir/all
@@ -434,7 +434,7 @@ CMakeFiles/test-tree.dir/clean:
 CMakeFiles/prepare_package.dir/all:
 	$(MAKE) -f CMakeFiles/prepare_package.dir/build.make CMakeFiles/prepare_package.dir/depend
 	$(MAKE) -f CMakeFiles/prepare_package.dir/build.make CMakeFiles/prepare_package.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=5,6,7,8,9,10 "Built target prepare_package"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=10,11,12,13,14,15 "Built target prepare_package"
 .PHONY : CMakeFiles/prepare_package.dir/all
 
 # Build rule for subdir invocation for target.
@@ -461,7 +461,7 @@ CMakeFiles/prepare_package.dir/clean:
 CMakeFiles/project_populate_test-files.dir/all: test/afb-test/tests/CMakeFiles/test-files.dir/all
 	$(MAKE) -f CMakeFiles/project_populate_test-files.dir/build.make CMakeFiles/project_populate_test-files.dir/depend
 	$(MAKE) -f CMakeFiles/project_populate_test-files.dir/build.make CMakeFiles/project_populate_test-files.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=21 "Built target project_populate_test-files"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=26 "Built target project_populate_test-files"
 .PHONY : CMakeFiles/project_populate_test-files.dir/all
 
 # Build rule for subdir invocation for target.
@@ -488,7 +488,7 @@ CMakeFiles/project_populate_test-files.dir/clean:
 CMakeFiles/prepare_package_test.dir/all:
 	$(MAKE) -f CMakeFiles/prepare_package_test.dir/build.make CMakeFiles/prepare_package_test.dir/depend
 	$(MAKE) -f CMakeFiles/prepare_package_test.dir/build.make CMakeFiles/prepare_package_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=11,12,13,14,15,16 "Built target prepare_package_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=16,17,18,19,20,21 "Built target prepare_package_test"
 .PHONY : CMakeFiles/prepare_package_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -509,16 +509,43 @@ CMakeFiles/prepare_package_test.dir/clean:
 .PHONY : CMakeFiles/prepare_package_test.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/project_populate_modem-bindingv3.dir
+
+# All Build rule for target.
+CMakeFiles/project_populate_modem-bindingv3.dir/all: gpiod-mlk/CMakeFiles/modem-bindingv3.dir/all
+	$(MAKE) -f CMakeFiles/project_populate_modem-bindingv3.dir/build.make CMakeFiles/project_populate_modem-bindingv3.dir/depend
+	$(MAKE) -f CMakeFiles/project_populate_modem-bindingv3.dir/build.make CMakeFiles/project_populate_modem-bindingv3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=25 "Built target project_populate_modem-bindingv3"
+.PHONY : CMakeFiles/project_populate_modem-bindingv3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/project_populate_modem-bindingv3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/project_populate_modem-bindingv3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 0
+.PHONY : CMakeFiles/project_populate_modem-bindingv3.dir/rule
+
+# Convenience name for target.
+project_populate_modem-bindingv3: CMakeFiles/project_populate_modem-bindingv3.dir/rule
+
+.PHONY : project_populate_modem-bindingv3
+
+# clean rule for target.
+CMakeFiles/project_populate_modem-bindingv3.dir/clean:
+	$(MAKE) -f CMakeFiles/project_populate_modem-bindingv3.dir/build.make CMakeFiles/project_populate_modem-bindingv3.dir/clean
+.PHONY : CMakeFiles/project_populate_modem-bindingv3.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/populate.dir
 
 # All Build rule for target.
 CMakeFiles/populate.dir/all: CMakeFiles/prepare_package.dir/all
 CMakeFiles/populate.dir/all: CMakeFiles/project_populate_test-files.dir/all
 CMakeFiles/populate.dir/all: CMakeFiles/prepare_package_test.dir/all
-CMakeFiles/populate.dir/all: CMakeFiles/project_populate_fixture-files.dir/all
+CMakeFiles/populate.dir/all: CMakeFiles/project_populate_modem-bindingv3.dir/all
 CMakeFiles/populate.dir/all: CMakeFiles/project_populate_htdocs.dir/all
-CMakeFiles/populate.dir/all: CMakeFiles/project_populate_serial-modem.dir/all
 CMakeFiles/populate.dir/all: CMakeFiles/project_populate_helloworld-config.dir/all
+CMakeFiles/populate.dir/all: CMakeFiles/project_populate_fixture-files.dir/all
 	$(MAKE) -f CMakeFiles/populate.dir/build.make CMakeFiles/populate.dir/depend
 	$(MAKE) -f CMakeFiles/populate.dir/build.make CMakeFiles/populate.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num= "Built target populate"
@@ -540,6 +567,92 @@ populate: CMakeFiles/populate.dir/rule
 CMakeFiles/populate.dir/clean:
 	$(MAKE) -f CMakeFiles/populate.dir/build.make CMakeFiles/populate.dir/clean
 .PHONY : CMakeFiles/populate.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/project_populate_htdocs.dir
+
+# All Build rule for target.
+CMakeFiles/project_populate_htdocs.dir/all: htdocs/CMakeFiles/htdocs.dir/all
+	$(MAKE) -f CMakeFiles/project_populate_htdocs.dir/build.make CMakeFiles/project_populate_htdocs.dir/depend
+	$(MAKE) -f CMakeFiles/project_populate_htdocs.dir/build.make CMakeFiles/project_populate_htdocs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=24 "Built target project_populate_htdocs"
+.PHONY : CMakeFiles/project_populate_htdocs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/project_populate_htdocs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/project_populate_htdocs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 0
+.PHONY : CMakeFiles/project_populate_htdocs.dir/rule
+
+# Convenience name for target.
+project_populate_htdocs: CMakeFiles/project_populate_htdocs.dir/rule
+
+.PHONY : project_populate_htdocs
+
+# clean rule for target.
+CMakeFiles/project_populate_htdocs.dir/clean:
+	$(MAKE) -f CMakeFiles/project_populate_htdocs.dir/build.make CMakeFiles/project_populate_htdocs.dir/clean
+.PHONY : CMakeFiles/project_populate_htdocs.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/project_populate_helloworld-config.dir
+
+# All Build rule for target.
+CMakeFiles/project_populate_helloworld-config.dir/all: test/afb-test/etc/CMakeFiles/helloworld-config.dir/all
+	$(MAKE) -f CMakeFiles/project_populate_helloworld-config.dir/build.make CMakeFiles/project_populate_helloworld-config.dir/depend
+	$(MAKE) -f CMakeFiles/project_populate_helloworld-config.dir/build.make CMakeFiles/project_populate_helloworld-config.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=23 "Built target project_populate_helloworld-config"
+.PHONY : CMakeFiles/project_populate_helloworld-config.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/project_populate_helloworld-config.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/project_populate_helloworld-config.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 0
+.PHONY : CMakeFiles/project_populate_helloworld-config.dir/rule
+
+# Convenience name for target.
+project_populate_helloworld-config: CMakeFiles/project_populate_helloworld-config.dir/rule
+
+.PHONY : project_populate_helloworld-config
+
+# clean rule for target.
+CMakeFiles/project_populate_helloworld-config.dir/clean:
+	$(MAKE) -f CMakeFiles/project_populate_helloworld-config.dir/build.make CMakeFiles/project_populate_helloworld-config.dir/clean
+.PHONY : CMakeFiles/project_populate_helloworld-config.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/widget_files.dir
+
+# All Build rule for target.
+CMakeFiles/widget_files.dir/all: CMakeFiles/populate.dir/all
+CMakeFiles/widget_files.dir/all: gpiod-mlk/CMakeFiles/modem-bindingv3.dir/all
+CMakeFiles/widget_files.dir/all: htdocs/CMakeFiles/htdocs.dir/all
+CMakeFiles/widget_files.dir/all: test/afb-test/etc/CMakeFiles/helloworld-config.dir/all
+CMakeFiles/widget_files.dir/all: test/afb-test/fixtures/CMakeFiles/fixture-files.dir/all
+CMakeFiles/widget_files.dir/all: test/afb-test/tests/CMakeFiles/test-files.dir/all
+	$(MAKE) -f CMakeFiles/widget_files.dir/build.make CMakeFiles/widget_files.dir/depend
+	$(MAKE) -f CMakeFiles/widget_files.dir/build.make CMakeFiles/widget_files.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=38,39,40 "Built target widget_files"
+.PHONY : CMakeFiles/widget_files.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/widget_files.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 29
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/widget_files.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 0
+.PHONY : CMakeFiles/widget_files.dir/rule
+
+# Convenience name for target.
+widget_files: CMakeFiles/widget_files.dir/rule
+
+.PHONY : widget_files
+
+# clean rule for target.
+CMakeFiles/widget_files.dir/clean:
+	$(MAKE) -f CMakeFiles/widget_files.dir/build.make CMakeFiles/widget_files.dir/clean
+.PHONY : CMakeFiles/widget_files.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/autobuild.dir
@@ -575,7 +688,7 @@ CMakeFiles/autobuild.dir/clean:
 CMakeFiles/project_populate_fixture-files.dir/all: test/afb-test/fixtures/CMakeFiles/fixture-files.dir/all
 	$(MAKE) -f CMakeFiles/project_populate_fixture-files.dir/build.make CMakeFiles/project_populate_fixture-files.dir/depend
 	$(MAKE) -f CMakeFiles/project_populate_fixture-files.dir/build.make CMakeFiles/project_populate_fixture-files.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=17 "Built target project_populate_fixture-files"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=22 "Built target project_populate_fixture-files"
 .PHONY : CMakeFiles/project_populate_fixture-files.dir/all
 
 # Build rule for subdir invocation for target.
@@ -596,126 +709,13 @@ CMakeFiles/project_populate_fixture-files.dir/clean:
 .PHONY : CMakeFiles/project_populate_fixture-files.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/project_populate_htdocs.dir
-
-# All Build rule for target.
-CMakeFiles/project_populate_htdocs.dir/all: htdocs/CMakeFiles/htdocs.dir/all
-	$(MAKE) -f CMakeFiles/project_populate_htdocs.dir/build.make CMakeFiles/project_populate_htdocs.dir/depend
-	$(MAKE) -f CMakeFiles/project_populate_htdocs.dir/build.make CMakeFiles/project_populate_htdocs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=19 "Built target project_populate_htdocs"
-.PHONY : CMakeFiles/project_populate_htdocs.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/project_populate_htdocs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/project_populate_htdocs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 0
-.PHONY : CMakeFiles/project_populate_htdocs.dir/rule
-
-# Convenience name for target.
-project_populate_htdocs: CMakeFiles/project_populate_htdocs.dir/rule
-
-.PHONY : project_populate_htdocs
-
-# clean rule for target.
-CMakeFiles/project_populate_htdocs.dir/clean:
-	$(MAKE) -f CMakeFiles/project_populate_htdocs.dir/build.make CMakeFiles/project_populate_htdocs.dir/clean
-.PHONY : CMakeFiles/project_populate_htdocs.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/project_populate_serial-modem.dir
-
-# All Build rule for target.
-CMakeFiles/project_populate_serial-modem.dir/all: gpiod-mlk/CMakeFiles/serial-modem.dir/all
-	$(MAKE) -f CMakeFiles/project_populate_serial-modem.dir/build.make CMakeFiles/project_populate_serial-modem.dir/depend
-	$(MAKE) -f CMakeFiles/project_populate_serial-modem.dir/build.make CMakeFiles/project_populate_serial-modem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=20 "Built target project_populate_serial-modem"
-.PHONY : CMakeFiles/project_populate_serial-modem.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/project_populate_serial-modem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/project_populate_serial-modem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 0
-.PHONY : CMakeFiles/project_populate_serial-modem.dir/rule
-
-# Convenience name for target.
-project_populate_serial-modem: CMakeFiles/project_populate_serial-modem.dir/rule
-
-.PHONY : project_populate_serial-modem
-
-# clean rule for target.
-CMakeFiles/project_populate_serial-modem.dir/clean:
-	$(MAKE) -f CMakeFiles/project_populate_serial-modem.dir/build.make CMakeFiles/project_populate_serial-modem.dir/clean
-.PHONY : CMakeFiles/project_populate_serial-modem.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/project_populate_helloworld-config.dir
-
-# All Build rule for target.
-CMakeFiles/project_populate_helloworld-config.dir/all: test/afb-test/etc/CMakeFiles/helloworld-config.dir/all
-	$(MAKE) -f CMakeFiles/project_populate_helloworld-config.dir/build.make CMakeFiles/project_populate_helloworld-config.dir/depend
-	$(MAKE) -f CMakeFiles/project_populate_helloworld-config.dir/build.make CMakeFiles/project_populate_helloworld-config.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=18 "Built target project_populate_helloworld-config"
-.PHONY : CMakeFiles/project_populate_helloworld-config.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/project_populate_helloworld-config.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/project_populate_helloworld-config.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 0
-.PHONY : CMakeFiles/project_populate_helloworld-config.dir/rule
-
-# Convenience name for target.
-project_populate_helloworld-config: CMakeFiles/project_populate_helloworld-config.dir/rule
-
-.PHONY : project_populate_helloworld-config
-
-# clean rule for target.
-CMakeFiles/project_populate_helloworld-config.dir/clean:
-	$(MAKE) -f CMakeFiles/project_populate_helloworld-config.dir/build.make CMakeFiles/project_populate_helloworld-config.dir/clean
-.PHONY : CMakeFiles/project_populate_helloworld-config.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/widget_files.dir
-
-# All Build rule for target.
-CMakeFiles/widget_files.dir/all: CMakeFiles/populate.dir/all
-CMakeFiles/widget_files.dir/all: gpiod-mlk/CMakeFiles/serial-modem.dir/all
-CMakeFiles/widget_files.dir/all: htdocs/CMakeFiles/htdocs.dir/all
-CMakeFiles/widget_files.dir/all: test/afb-test/etc/CMakeFiles/helloworld-config.dir/all
-CMakeFiles/widget_files.dir/all: test/afb-test/fixtures/CMakeFiles/fixture-files.dir/all
-CMakeFiles/widget_files.dir/all: test/afb-test/tests/CMakeFiles/test-files.dir/all
-	$(MAKE) -f CMakeFiles/widget_files.dir/build.make CMakeFiles/widget_files.dir/depend
-	$(MAKE) -f CMakeFiles/widget_files.dir/build.make CMakeFiles/widget_files.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=38,39,40 "Built target widget_files"
-.PHONY : CMakeFiles/widget_files.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/widget_files.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 29
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/widget_files.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 0
-.PHONY : CMakeFiles/widget_files.dir/rule
-
-# Convenience name for target.
-widget_files: CMakeFiles/widget_files.dir/rule
-
-.PHONY : widget_files
-
-# clean rule for target.
-CMakeFiles/widget_files.dir/clean:
-	$(MAKE) -f CMakeFiles/widget_files.dir/build.make CMakeFiles/widget_files.dir/clean
-.PHONY : CMakeFiles/widget_files.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/remote-target-populate.dir
 
 # All Build rule for target.
 CMakeFiles/remote-target-populate.dir/all:
 	$(MAKE) -f CMakeFiles/remote-target-populate.dir/build.make CMakeFiles/remote-target-populate.dir/depend
 	$(MAKE) -f CMakeFiles/remote-target-populate.dir/build.make CMakeFiles/remote-target-populate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=22 "Built target remote-target-populate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=27 "Built target remote-target-populate"
 .PHONY : CMakeFiles/remote-target-populate.dir/all
 
 # Build rule for subdir invocation for target.
@@ -736,31 +736,31 @@ CMakeFiles/remote-target-populate.dir/clean:
 .PHONY : CMakeFiles/remote-target-populate.dir/clean
 
 #=============================================================================
-# Target rules for target gpiod-mlk/CMakeFiles/serial-modem.dir
+# Target rules for target gpiod-mlk/CMakeFiles/modem-bindingv3.dir
 
 # All Build rule for target.
-gpiod-mlk/CMakeFiles/serial-modem.dir/all:
-	$(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/depend
-	$(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=23,24,25,26,27 "Built target serial-modem"
-.PHONY : gpiod-mlk/CMakeFiles/serial-modem.dir/all
+gpiod-mlk/CMakeFiles/modem-bindingv3.dir/all:
+	$(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/depend
+	$(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrator/Documents/redpesk-try/build/CMakeFiles --progress-num=5,6,7,8,9 "Built target modem-bindingv3"
+.PHONY : gpiod-mlk/CMakeFiles/modem-bindingv3.dir/all
 
 # Build rule for subdir invocation for target.
-gpiod-mlk/CMakeFiles/serial-modem.dir/rule: cmake_check_build_system
+gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 gpiod-mlk/CMakeFiles/serial-modem.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 gpiod-mlk/CMakeFiles/modem-bindingv3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Documents/redpesk-try/build/CMakeFiles 0
-.PHONY : gpiod-mlk/CMakeFiles/serial-modem.dir/rule
+.PHONY : gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rule
 
 # Convenience name for target.
-serial-modem: gpiod-mlk/CMakeFiles/serial-modem.dir/rule
+modem-bindingv3: gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rule
 
-.PHONY : serial-modem
+.PHONY : modem-bindingv3
 
 # clean rule for target.
-gpiod-mlk/CMakeFiles/serial-modem.dir/clean:
-	$(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/clean
-.PHONY : gpiod-mlk/CMakeFiles/serial-modem.dir/clean
+gpiod-mlk/CMakeFiles/modem-bindingv3.dir/clean:
+	$(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/clean
+.PHONY : gpiod-mlk/CMakeFiles/modem-bindingv3.dir/clean
 
 #=============================================================================
 # Target rules for target htdocs/CMakeFiles/htdocs.dir

@@ -25,7 +25,7 @@
 %{afm_extra_files_test} \
 %{nil}
 
-Name:    serial-binding
+Name:    modem-binding
 Version: 1.0
 Release: 0%{?dist}
 License: APL2.0
@@ -46,7 +46,7 @@ BuildRequires: pkgconfig(afb-binding)
 BuildRequires: pkgconfig(afb-libhelpers)
 
 %description
-Enable serial binding to communicate with modem
+Provide API to communicate with Sierra Modem HL7692 through serial interface
 
 # main package: default install in /var/local/lib/afm/applications/%%{name}
 %afm_package

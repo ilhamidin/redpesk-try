@@ -1,22 +1,22 @@
 [
 {
   "directory": "/home/administrator/Documents/redpesk-try/build/gpiod-mlk",
-  "command": "/usr/bin/cc -Dserial_modem_EXPORTS -I/usr/include/json-c -I/usr/include/afb  -g -fPIC   -Wall -Wextra -Wconversion -Wno-unused-parameter -Wno-sign-compare -Wno-sign-conversion -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -Werror=maybe-uninitialized -g -O0 -ggdb -I/usr/include/json-c -I/usr/include/afb -o CMakeFiles/serial-modem.dir/modem-bindingv3.c.o   -c /home/administrator/Documents/redpesk-try/gpiod-mlk/modem-bindingv3.c",
+  "command": "/usr/bin/cc -Dmodem_bindingv3_EXPORTS -I/usr/include/json-c -I/usr/include/afb  -g -fPIC   -Wall -Wextra -Wconversion -Wno-unused-parameter -Wno-sign-compare -Wno-sign-conversion -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -Werror=maybe-uninitialized -g -O0 -ggdb -I/usr/include/json-c -I/usr/include/afb -o CMakeFiles/modem-bindingv3.dir/modem-bindingv3.c.o   -c /home/administrator/Documents/redpesk-try/gpiod-mlk/modem-bindingv3.c",
   "file": "/home/administrator/Documents/redpesk-try/gpiod-mlk/modem-bindingv3.c"
 },
 {
   "directory": "/home/administrator/Documents/redpesk-try/build/gpiod-mlk",
-  "command": "/usr/bin/cc -Dserial_modem_EXPORTS -I/usr/include/json-c -I/usr/include/afb  -g -fPIC   -Wall -Wextra -Wconversion -Wno-unused-parameter -Wno-sign-compare -Wno-sign-conversion -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -Werror=maybe-uninitialized -g -O0 -ggdb -I/usr/include/json-c -I/usr/include/afb -o CMakeFiles/serial-modem.dir/HL7692/HL7692-Driver.c.o   -c /home/administrator/Documents/redpesk-try/gpiod-mlk/HL7692/HL7692-Driver.c",
+  "command": "/usr/bin/cc -Dmodem_bindingv3_EXPORTS -I/usr/include/json-c -I/usr/include/afb  -g -fPIC   -Wall -Wextra -Wconversion -Wno-unused-parameter -Wno-sign-compare -Wno-sign-conversion -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -Werror=maybe-uninitialized -g -O0 -ggdb -I/usr/include/json-c -I/usr/include/afb -o CMakeFiles/modem-bindingv3.dir/HL7692/HL7692-Driver.c.o   -c /home/administrator/Documents/redpesk-try/gpiod-mlk/HL7692/HL7692-Driver.c",
   "file": "/home/administrator/Documents/redpesk-try/gpiod-mlk/HL7692/HL7692-Driver.c"
 },
 {
   "directory": "/home/administrator/Documents/redpesk-try/build/gpiod-mlk",
-  "command": "/usr/bin/cc -Dserial_modem_EXPORTS -I/usr/include/json-c -I/usr/include/afb  -g -fPIC   -Wall -Wextra -Wconversion -Wno-unused-parameter -Wno-sign-compare -Wno-sign-conversion -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -Werror=maybe-uninitialized -g -O0 -ggdb -I/usr/include/json-c -I/usr/include/afb -o CMakeFiles/serial-modem.dir/rwgpio/rwgpio.c.o   -c /home/administrator/Documents/redpesk-try/gpiod-mlk/rwgpio/rwgpio.c",
+  "command": "/usr/bin/cc -Dmodem_bindingv3_EXPORTS -I/usr/include/json-c -I/usr/include/afb  -g -fPIC   -Wall -Wextra -Wconversion -Wno-unused-parameter -Wno-sign-compare -Wno-sign-conversion -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -Werror=maybe-uninitialized -g -O0 -ggdb -I/usr/include/json-c -I/usr/include/afb -o CMakeFiles/modem-bindingv3.dir/rwgpio/rwgpio.c.o   -c /home/administrator/Documents/redpesk-try/gpiod-mlk/rwgpio/rwgpio.c",
   "file": "/home/administrator/Documents/redpesk-try/gpiod-mlk/rwgpio/rwgpio.c"
 },
 {
   "directory": "/home/administrator/Documents/redpesk-try/build/gpiod-mlk",
-  "command": "/usr/bin/cc -Dserial_modem_EXPORTS -I/usr/include/json-c -I/usr/include/afb  -g -fPIC   -Wall -Wextra -Wconversion -Wno-unused-parameter -Wno-sign-compare -Wno-sign-conversion -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -Werror=maybe-uninitialized -g -O0 -ggdb -I/usr/include/json-c -I/usr/include/afb -o CMakeFiles/serial-modem.dir/rwserial/rwserial.c.o   -c /home/administrator/Documents/redpesk-try/gpiod-mlk/rwserial/rwserial.c",
+  "command": "/usr/bin/cc -Dmodem_bindingv3_EXPORTS -I/usr/include/json-c -I/usr/include/afb  -g -fPIC   -Wall -Wextra -Wconversion -Wno-unused-parameter -Wno-sign-compare -Wno-sign-conversion -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -Werror=maybe-uninitialized -g -O0 -ggdb -I/usr/include/json-c -I/usr/include/afb -o CMakeFiles/modem-bindingv3.dir/rwserial/rwserial.c.o   -c /home/administrator/Documents/redpesk-try/gpiod-mlk/rwserial/rwserial.c",
   "file": "/home/administrator/Documents/redpesk-try/gpiod-mlk/rwserial/rwserial.c"
 }
 ]

@@ -86,7 +86,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 502,
+				"line" : 453,
 				"parent" : 7
 			},
 			{
@@ -110,7 +110,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 453,
+				"line" : 506,
 				"parent" : 7
 			},
 			{
@@ -122,7 +122,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 506,
+				"line" : 502,
 				"parent" : 7
 			},
 			{
@@ -149,7 +149,7 @@
 		},
 		{
 			"backtrace" : 13,
-			"id" : "project_populate_fixture-files::@6890427a1f51a3e7e1df"
+			"id" : "project_populate_modem-bindingv3::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 15,
@@ -157,11 +157,11 @@
 		},
 		{
 			"backtrace" : 17,
-			"id" : "project_populate_serial-modem::@6890427a1f51a3e7e1df"
+			"id" : "project_populate_helloworld-config::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 19,
-			"id" : "project_populate_helloworld-config::@6890427a1f51a3e7e1df"
+			"id" : "project_populate_fixture-files::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "populate::@6890427a1f51a3e7e1df",

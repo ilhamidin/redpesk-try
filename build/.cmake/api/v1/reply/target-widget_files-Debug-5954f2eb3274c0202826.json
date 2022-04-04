@@ -1,13 +1,13 @@
 {
-	"backtrace" : 8,
+	"backtrace" : 9,
 	"backtraceGraph" : 
 	{
 		"commands" : 
 		[
 			"add_custom_target",
-			"project_closing_msg",
-			"include",
-			"add_dependencies"
+			"wgt_package_build",
+			"project_package_build",
+			"include"
 		],
 		"files" : 
 		[
@@ -23,7 +23,7 @@
 				"file" : 4
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 4,
 				"line" : 3,
 				"parent" : 0
@@ -33,7 +33,7 @@
 				"parent" : 1
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 3,
 				"line" : 185,
 				"parent" : 2
@@ -43,7 +43,7 @@
 				"parent" : 3
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 2,
 				"line" : 19,
 				"parent" : 4
@@ -53,54 +53,48 @@
 				"parent" : 5
 			},
 			{
-				"command" : 1,
+				"command" : 2,
 				"file" : 1,
-				"line" : 120,
+				"line" : 119,
 				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 748,
+				"parent" : 7
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 779,
-				"parent" : 7
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 782,
-				"parent" : 7
+				"line" : 692,
+				"parent" : 8
 			}
 		]
 	},
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 9,
 			"id" : "populate::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 9,
-			"id" : "serial-modem::@78fc2931dacfdf2a70c5"
+			"id" : "modem-bindingv3::@78fc2931dacfdf2a70c5"
 		},
 		{
-			"backtrace" : 9,
 			"id" : "htdocs::@e9bbf7d6ea2c94609245"
 		},
 		{
-			"backtrace" : 9,
 			"id" : "helloworld-config::@fefa895444fa9a70514c"
 		},
 		{
-			"backtrace" : 9,
 			"id" : "fixture-files::@f61c24e65c3433d5d598"
 		},
 		{
-			"backtrace" : 9,
 			"id" : "test-files::@aa4c974b243f9dec0e19"
 		}
 	],
-	"id" : "helloworld-binding_build_done::@6890427a1f51a3e7e1df",
-	"name" : "helloworld-binding_build_done",
+	"id" : "widget_files::@6890427a1f51a3e7e1df",
+	"name" : "widget_files",
 	"paths" : 
 	{
 		"build" : ".",
@@ -119,22 +113,43 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				1
+				1,
+				2,
+				3,
+				4
 			]
 		}
 	],
 	"sources" : 
 	[
 		{
-			"backtrace" : 8,
+			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/helloworld-binding_build_done",
+			"path" : "build/CMakeFiles/widget_files",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/helloworld-binding_build_done.rule",
+			"path" : "build/CMakeFiles/widget_files.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/package/icon.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/package/config.xml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/package.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

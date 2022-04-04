@@ -1,14 +1,14 @@
 # Hashes of file build rules.
 1989a440c206620e75bdac1a1ba18849 ../autobuild/agl/autobuild
-b88d5adeae8fe702237bcf06bb504e8b ../test
+f0d71fb3a60a2495f98dc214ab107e47 ../test
 d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/autobuild
-94dfb3ad9b66b0fdbfd79f3b387a602e CMakeFiles/helloworld-binding_build_done
+94dfb3ad9b66b0fdbfd79f3b387a602e CMakeFiles/modem-binding_build_done
 d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/prepare_package
 d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/prepare_package_test
 d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/project_populate_fixture-files
 d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/project_populate_helloworld-config
 d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/project_populate_htdocs
-d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/project_populate_serial-modem
+d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/project_populate_modem-bindingv3
 d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/project_populate_test-files
 8090d591ed84ce8b7f4ee604f6b13f6a CMakeFiles/remote-target-populate
 d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/test-tree
@@ -17,10 +17,10 @@ d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/test_widget_files
 d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/widget
 8090d591ed84ce8b7f4ee604f6b13f6a CMakeFiles/widget-target-install
 d3eef2b3c4e721c5cd5822b7e2b9f910 CMakeFiles/widget_files
-66d6dcdab825bbd1974ec4f19984b98c helloworld-binding-debug-test.wgt
-c936249d72d5c1c3cf3b17d78ecf1594 helloworld-binding-debug.wgt
 8a0e3e0229bfae5e1e71607086e0fcbe htdocs/CMakeFiles/htdocs
 56dddfeab66d09e2a949ef5376037413 htdocs/htdocs
+a960366f413974b54208b88f228eff61 modem-binding-debug-test.wgt
+4a415203ed9d890586743e13b611850e modem-binding-debug.wgt
 84b44a54b98d48416fef1dd1548fac73 package
 bb6a985c22afe1b394f9626ffef25cad package-test
 806d9671ff25150287430c4811a76091 package-test/bin
@@ -41,7 +41,7 @@ e310fd48063634468d627f9f6ead5018 package/htdocs
 f97baf0557c290492c6a738a39e775ce package/htdocs/htdocs
 f8a332ac9046a660859edf954793d8da package/icon.png
 9c9f196962467da8c5e045d60a5fa71b package/lib
-9bead7e57982995c81c4708047cdfbdb package/lib/afb-serial-modem.so
+2f60a3f057ba9c6f8bfa6fc0beee5e2d package/lib/afb-modem-bindingv3.so
 e33c034d0382738010c66fcc51d5167b package/var
 4333a280beeeacb4564b817c62320c48 test/afb-test/etc/CMakeFiles/helloworld-config
 157e8db6d2e1544f3279cc5b3c27aef2 test/afb-test/etc/helloworld-config

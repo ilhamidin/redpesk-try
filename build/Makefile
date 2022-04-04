@@ -68,6 +68,18 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -89,18 +101,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
@@ -157,17 +157,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named helloworld-binding_build_done
+# Target rules for targets named modem-binding_build_done
 
 # Build rule for target.
-helloworld-binding_build_done: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 helloworld-binding_build_done
-.PHONY : helloworld-binding_build_done
+modem-binding_build_done: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 modem-binding_build_done
+.PHONY : modem-binding_build_done
 
 # fast build rule for target.
-helloworld-binding_build_done/fast:
-	$(MAKE) -f CMakeFiles/helloworld-binding_build_done.dir/build.make CMakeFiles/helloworld-binding_build_done.dir/build
-.PHONY : helloworld-binding_build_done/fast
+modem-binding_build_done/fast:
+	$(MAKE) -f CMakeFiles/modem-binding_build_done.dir/build.make CMakeFiles/modem-binding_build_done.dir/build
+.PHONY : modem-binding_build_done/fast
 
 #=============================================================================
 # Target rules for targets named widget-target-install
@@ -274,6 +274,19 @@ prepare_package_test/fast:
 .PHONY : prepare_package_test/fast
 
 #=============================================================================
+# Target rules for targets named project_populate_modem-bindingv3
+
+# Build rule for target.
+project_populate_modem-bindingv3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 project_populate_modem-bindingv3
+.PHONY : project_populate_modem-bindingv3
+
+# fast build rule for target.
+project_populate_modem-bindingv3/fast:
+	$(MAKE) -f CMakeFiles/project_populate_modem-bindingv3.dir/build.make CMakeFiles/project_populate_modem-bindingv3.dir/build
+.PHONY : project_populate_modem-bindingv3/fast
+
+#=============================================================================
 # Target rules for targets named populate
 
 # Build rule for target.
@@ -287,32 +300,6 @@ populate/fast:
 .PHONY : populate/fast
 
 #=============================================================================
-# Target rules for targets named autobuild
-
-# Build rule for target.
-autobuild: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 autobuild
-.PHONY : autobuild
-
-# fast build rule for target.
-autobuild/fast:
-	$(MAKE) -f CMakeFiles/autobuild.dir/build.make CMakeFiles/autobuild.dir/build
-.PHONY : autobuild/fast
-
-#=============================================================================
-# Target rules for targets named project_populate_fixture-files
-
-# Build rule for target.
-project_populate_fixture-files: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 project_populate_fixture-files
-.PHONY : project_populate_fixture-files
-
-# fast build rule for target.
-project_populate_fixture-files/fast:
-	$(MAKE) -f CMakeFiles/project_populate_fixture-files.dir/build.make CMakeFiles/project_populate_fixture-files.dir/build
-.PHONY : project_populate_fixture-files/fast
-
-#=============================================================================
 # Target rules for targets named project_populate_htdocs
 
 # Build rule for target.
@@ -324,19 +311,6 @@ project_populate_htdocs: cmake_check_build_system
 project_populate_htdocs/fast:
 	$(MAKE) -f CMakeFiles/project_populate_htdocs.dir/build.make CMakeFiles/project_populate_htdocs.dir/build
 .PHONY : project_populate_htdocs/fast
-
-#=============================================================================
-# Target rules for targets named project_populate_serial-modem
-
-# Build rule for target.
-project_populate_serial-modem: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 project_populate_serial-modem
-.PHONY : project_populate_serial-modem
-
-# fast build rule for target.
-project_populate_serial-modem/fast:
-	$(MAKE) -f CMakeFiles/project_populate_serial-modem.dir/build.make CMakeFiles/project_populate_serial-modem.dir/build
-.PHONY : project_populate_serial-modem/fast
 
 #=============================================================================
 # Target rules for targets named project_populate_helloworld-config
@@ -365,6 +339,32 @@ widget_files/fast:
 .PHONY : widget_files/fast
 
 #=============================================================================
+# Target rules for targets named autobuild
+
+# Build rule for target.
+autobuild: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 autobuild
+.PHONY : autobuild
+
+# fast build rule for target.
+autobuild/fast:
+	$(MAKE) -f CMakeFiles/autobuild.dir/build.make CMakeFiles/autobuild.dir/build
+.PHONY : autobuild/fast
+
+#=============================================================================
+# Target rules for targets named project_populate_fixture-files
+
+# Build rule for target.
+project_populate_fixture-files: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 project_populate_fixture-files
+.PHONY : project_populate_fixture-files
+
+# fast build rule for target.
+project_populate_fixture-files/fast:
+	$(MAKE) -f CMakeFiles/project_populate_fixture-files.dir/build.make CMakeFiles/project_populate_fixture-files.dir/build
+.PHONY : project_populate_fixture-files/fast
+
+#=============================================================================
 # Target rules for targets named remote-target-populate
 
 # Build rule for target.
@@ -378,17 +378,17 @@ remote-target-populate/fast:
 .PHONY : remote-target-populate/fast
 
 #=============================================================================
-# Target rules for targets named serial-modem
+# Target rules for targets named modem-bindingv3
 
 # Build rule for target.
-serial-modem: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 serial-modem
-.PHONY : serial-modem
+modem-bindingv3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 modem-bindingv3
+.PHONY : modem-bindingv3
 
 # fast build rule for target.
-serial-modem/fast:
-	$(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/build
-.PHONY : serial-modem/fast
+modem-bindingv3/fast:
+	$(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build
+.PHONY : modem-bindingv3/fast
 
 #=============================================================================
 # Target rules for targets named htdocs
@@ -449,10 +449,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... install/local"
-	@echo "... helloworld-binding_build_done"
+	@echo "... modem-binding_build_done"
 	@echo "... widget-target-install"
 	@echo "... test_widget"
 	@echo "... test_widget_files"
@@ -462,16 +462,16 @@ help:
 	@echo "... prepare_package"
 	@echo "... project_populate_test-files"
 	@echo "... prepare_package_test"
+	@echo "... project_populate_modem-bindingv3"
 	@echo "... populate"
+	@echo "... project_populate_htdocs"
+	@echo "... project_populate_helloworld-config"
+	@echo "... widget_files"
 	@echo "... list_install_components"
 	@echo "... autobuild"
 	@echo "... project_populate_fixture-files"
-	@echo "... project_populate_htdocs"
-	@echo "... project_populate_serial-modem"
-	@echo "... project_populate_helloworld-config"
-	@echo "... widget_files"
 	@echo "... remote-target-populate"
-	@echo "... serial-modem"
+	@echo "... modem-bindingv3"
 	@echo "... htdocs"
 	@echo "... helloworld-config"
 	@echo "... fixture-files"

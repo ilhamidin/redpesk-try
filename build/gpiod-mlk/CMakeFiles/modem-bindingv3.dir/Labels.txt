@@ -1,0 +1,10 @@
+# Target labels
+ BINDING
+# Source files and their labels
+/home/administrator/Documents/redpesk-try/gpiod-mlk/modem-bindingv3.c
+/home/administrator/Documents/redpesk-try/gpiod-mlk/HL7692/HL7692-Driver.c
+/home/administrator/Documents/redpesk-try/gpiod-mlk/HL7692/HL7692-Driver.h
+/home/administrator/Documents/redpesk-try/gpiod-mlk/rwgpio/rwgpio.c
+/home/administrator/Documents/redpesk-try/gpiod-mlk/rwgpio/rwgpio.h
+/home/administrator/Documents/redpesk-try/gpiod-mlk/rwserial/rwserial.c
+/home/administrator/Documents/redpesk-try/gpiod-mlk/rwserial/rwserial.h

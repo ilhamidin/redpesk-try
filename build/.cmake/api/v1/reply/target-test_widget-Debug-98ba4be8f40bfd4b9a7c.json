@@ -5,10 +5,9 @@
 		"commands" : 
 		[
 			"add_custom_target",
-			"generate_one_populate_target",
-			"project_targets_populate",
-			"include",
-			"add_dependencies"
+			"wgt_package_build",
+			"project_package_build",
+			"include"
 		],
 		"files" : 
 		[
@@ -56,25 +55,19 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 117,
+				"line" : 119,
 				"parent" : 6
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 453,
+				"line" : 748,
 				"parent" : 7
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 266,
-				"parent" : 8
-			},
-			{
-				"command" : 4,
-				"file" : 0,
-				"line" : 268,
+				"line" : 695,
 				"parent" : 8
 			}
 		]
@@ -82,12 +75,26 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 10,
-			"id" : "serial-modem::@78fc2931dacfdf2a70c5"
+			"id" : "test_widget_files::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "modem-bindingv3::@78fc2931dacfdf2a70c5"
+		},
+		{
+			"id" : "htdocs::@e9bbf7d6ea2c94609245"
+		},
+		{
+			"id" : "helloworld-config::@fefa895444fa9a70514c"
+		},
+		{
+			"id" : "fixture-files::@f61c24e65c3433d5d598"
+		},
+		{
+			"id" : "test-files::@aa4c974b243f9dec0e19"
 		}
 	],
-	"id" : "project_populate_serial-modem::@6890427a1f51a3e7e1df",
-	"name" : "project_populate_serial-modem",
+	"id" : "test_widget::@6890427a1f51a3e7e1df",
+	"name" : "test_widget",
 	"paths" : 
 	{
 		"build" : ".",
@@ -116,19 +123,19 @@
 		{
 			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/project_populate_serial-modem",
+			"path" : "build/CMakeFiles/test_widget",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/project_populate_serial-modem.rule",
+			"path" : "build/CMakeFiles/test_widget.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/package/lib/afb-serial-modem.so.rule",
+			"path" : "build/modem-binding-debug-test.wgt.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

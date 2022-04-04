@@ -1,6 +1,6 @@
 Priority: optional
 Maintainer: unknown <unknown@debian.org>
-Source: serial-binding
+Source: modem-binding
 Build-Depends: debhelper (>= 5),pkg-config,
  cmake,
  afb-cmake-modules,
@@ -10,22 +10,22 @@ Build-Depends: debhelper (>= 5),pkg-config,
  libjson-c-dev,
  afb-libhelpers-dev,
 Standards-Version: 3.8.2
-Homepage: https://github.com/redpesk-samples/helloworld-binding
+Homepage: https://github.com/ilhamidin/redpesk-try.git
 
-Package: serial-binding-bin
+Package: modem-binding-bin
 Section: libs
 Architecture: any
 Depends: afb-binder
-Description: serial service set to be used in redpesk
+Description: modem service set to be used in redpesk
 
-Package: serial-binding-test
+Package: modem-binding-test
 Section: libs
 Architecture: any
-Depends: serial-binding-bin, afb-test-bin, jq
-Description: serial service test suite
+Depends: modem-binding-bin, afb-test-bin, jq
+Description: modem service test suite
 
-Package: serial-binding-redtest
+Package: modem-binding-redtest
 Section: libs
 Architecture: any
-Depends: serial-binding-test
-Description: serial service redtest suite
+Depends: modem-binding-test
+Description: modem service redtest suite

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "gpiod-mlk/afb-serial-modem.so"
+			"path" : "gpiod-mlk/afb-modem-bindingv3.so"
 		}
 	],
 	"backtrace" : 1,
@@ -264,7 +264,7 @@
 			"defines" : 
 			[
 				{
-					"define" : "serial_modem_EXPORTS"
+					"define" : "modem_bindingv3_EXPORTS"
 				}
 			],
 			"includes" : 
@@ -288,7 +288,7 @@
 			]
 		}
 	],
-	"id" : "serial-modem::@78fc2931dacfdf2a70c5",
+	"id" : "modem-bindingv3::@78fc2931dacfdf2a70c5",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -320,8 +320,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "serial-modem",
-	"nameOnDisk" : "afb-serial-modem.so",
+	"name" : "modem-bindingv3",
+	"nameOnDisk" : "afb-modem-bindingv3.so",
 	"paths" : 
 	{
 		"build" : "gpiod-mlk",

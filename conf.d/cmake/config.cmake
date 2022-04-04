@@ -18,17 +18,17 @@
 
 # Project Info
 # ------------------
-set(PROJECT_NAME helloworld-binding)
+set(PROJECT_NAME modem-binding)
 set(PROJECT_VERSION 1.0)
-set(PROJECT_PRETTY_NAME "Helloworld Binding")
-set(PROJECT_DESCRIPTION "Provide an Helloworld Binding")
-set(PROJECT_URL "https://github.com/redpesk-samples/helloworld-binding")
+set(PROJECT_PRETTY_NAME "Modem Binding")
+set(PROJECT_DESCRIPTION "Provide API to communicate with Sierra HL7692 Modem")
+set(PROJECT_URL "https://github.com/ilhamidin/redpesk-try.git")
 set(PROJECT_ICON "icon.png")
-set(PROJECT_AUTHOR "Iot-Team")
-set(PROJECT_AUTHOR_MAIL "frederic.marec@iot.bzh")
+set(PROJECT_AUTHOR "Idemia-Team")
+set(PROJECT_AUTHOR_MAIL "ilham.hamiddin@idemia.com")
 set(PROJECT_LICENSE "APL2.0")
 set(PROJECT_LANGUAGES,"C")
-set(API_NAME "helloworld")
+set(API_NAME "modembinding")
 
 # Where are stored default templates files from submodule or subtree app-templates in your project tree
 # relative to the root project directory

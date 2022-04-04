@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "helloworld-binding-debug-test.wgt"
-  "helloworld-binding-debug.wgt"
+  "modem-binding-debug-test.wgt"
+  "modem-binding-debug.wgt"
   "CMakeFiles/test_widget"
-  "helloworld-binding-debug-test.wgt"
+  "modem-binding-debug-test.wgt"
 )
 
 # Per-language clean rules from dependency scanning.

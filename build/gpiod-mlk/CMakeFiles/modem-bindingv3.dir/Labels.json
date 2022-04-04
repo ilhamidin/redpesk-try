@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/modem-bindingv3.c"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/HL7692/HL7692-Driver.c"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/HL7692/HL7692-Driver.h"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/rwgpio/rwgpio.c"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/rwgpio/rwgpio.h"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/rwserial/rwserial.c"
+		},
+		{
+			"file" : "/home/administrator/Documents/redpesk-try/gpiod-mlk/rwserial/rwserial.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BINDING"
+		],
+		"name" : "modem-bindingv3"
+	}
+}

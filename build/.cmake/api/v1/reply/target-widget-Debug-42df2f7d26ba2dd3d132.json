@@ -67,7 +67,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 692,
+				"line" : 693,
 				"parent" : 8
 			}
 		]
@@ -75,10 +75,10 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "populate::@6890427a1f51a3e7e1df"
+			"id" : "widget_files::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "serial-modem::@78fc2931dacfdf2a70c5"
+			"id" : "modem-bindingv3::@78fc2931dacfdf2a70c5"
 		},
 		{
 			"id" : "htdocs::@e9bbf7d6ea2c94609245"
@@ -93,8 +93,8 @@
 			"id" : "test-files::@aa4c974b243f9dec0e19"
 		}
 	],
-	"id" : "widget_files::@6890427a1f51a3e7e1df",
-	"name" : "widget_files",
+	"id" : "widget::@6890427a1f51a3e7e1df",
+	"name" : "widget",
 	"paths" : 
 	{
 		"build" : ".",
@@ -114,9 +114,7 @@
 			"sourceIndexes" : 
 			[
 				1,
-				2,
-				3,
-				4
+				2
 			]
 		}
 	],
@@ -125,31 +123,19 @@
 		{
 			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/widget_files",
+			"path" : "build/CMakeFiles/widget",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/widget_files.rule",
+			"path" : "build/CMakeFiles/widget.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/package/icon.png.rule",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/package/config.xml.rule",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/package.rule",
+			"path" : "build/modem-binding-debug.wgt.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

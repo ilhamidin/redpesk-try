@@ -76,7 +76,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/helloworld-binding_build_done.dir/DependInfo.cmake"
+  "CMakeFiles/modem-binding_build_done.dir/DependInfo.cmake"
   "CMakeFiles/widget-target-install.dir/DependInfo.cmake"
   "CMakeFiles/test_widget.dir/DependInfo.cmake"
   "CMakeFiles/test_widget_files.dir/DependInfo.cmake"
@@ -85,15 +85,15 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/prepare_package.dir/DependInfo.cmake"
   "CMakeFiles/project_populate_test-files.dir/DependInfo.cmake"
   "CMakeFiles/prepare_package_test.dir/DependInfo.cmake"
+  "CMakeFiles/project_populate_modem-bindingv3.dir/DependInfo.cmake"
   "CMakeFiles/populate.dir/DependInfo.cmake"
-  "CMakeFiles/autobuild.dir/DependInfo.cmake"
-  "CMakeFiles/project_populate_fixture-files.dir/DependInfo.cmake"
   "CMakeFiles/project_populate_htdocs.dir/DependInfo.cmake"
-  "CMakeFiles/project_populate_serial-modem.dir/DependInfo.cmake"
   "CMakeFiles/project_populate_helloworld-config.dir/DependInfo.cmake"
   "CMakeFiles/widget_files.dir/DependInfo.cmake"
+  "CMakeFiles/autobuild.dir/DependInfo.cmake"
+  "CMakeFiles/project_populate_fixture-files.dir/DependInfo.cmake"
   "CMakeFiles/remote-target-populate.dir/DependInfo.cmake"
-  "gpiod-mlk/CMakeFiles/serial-modem.dir/DependInfo.cmake"
+  "gpiod-mlk/CMakeFiles/modem-bindingv3.dir/DependInfo.cmake"
   "htdocs/CMakeFiles/htdocs.dir/DependInfo.cmake"
   "test/afb-test/etc/CMakeFiles/helloworld-config.dir/DependInfo.cmake"
   "test/afb-test/fixtures/CMakeFiles/fixture-files.dir/DependInfo.cmake"

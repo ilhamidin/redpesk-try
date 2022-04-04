@@ -157,19 +157,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-gpiod-mlk/CMakeFiles/serial-modem.dir/rule:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f CMakeFiles/Makefile2 gpiod-mlk/CMakeFiles/serial-modem.dir/rule
-.PHONY : gpiod-mlk/CMakeFiles/serial-modem.dir/rule
+gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rule:
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f CMakeFiles/Makefile2 gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rule
+.PHONY : gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rule
 
 # Convenience name for target.
-serial-modem: gpiod-mlk/CMakeFiles/serial-modem.dir/rule
+modem-bindingv3: gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rule
 
-.PHONY : serial-modem
+.PHONY : modem-bindingv3
 
 # fast build rule for target.
-serial-modem/fast:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/build
-.PHONY : serial-modem/fast
+modem-bindingv3/fast:
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build
+.PHONY : modem-bindingv3/fast
 
 HL7692/HL7692-Driver.o: HL7692/HL7692-Driver.c.o
 
@@ -177,7 +177,7 @@ HL7692/HL7692-Driver.o: HL7692/HL7692-Driver.c.o
 
 # target to build an object file
 HL7692/HL7692-Driver.c.o:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/HL7692/HL7692-Driver.c.o
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/HL7692/HL7692-Driver.c.o
 .PHONY : HL7692/HL7692-Driver.c.o
 
 HL7692/HL7692-Driver.i: HL7692/HL7692-Driver.c.i
@@ -186,7 +186,7 @@ HL7692/HL7692-Driver.i: HL7692/HL7692-Driver.c.i
 
 # target to preprocess a source file
 HL7692/HL7692-Driver.c.i:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/HL7692/HL7692-Driver.c.i
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/HL7692/HL7692-Driver.c.i
 .PHONY : HL7692/HL7692-Driver.c.i
 
 HL7692/HL7692-Driver.s: HL7692/HL7692-Driver.c.s
@@ -195,7 +195,7 @@ HL7692/HL7692-Driver.s: HL7692/HL7692-Driver.c.s
 
 # target to generate assembly for a file
 HL7692/HL7692-Driver.c.s:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/HL7692/HL7692-Driver.c.s
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/HL7692/HL7692-Driver.c.s
 .PHONY : HL7692/HL7692-Driver.c.s
 
 modem-bindingv3.o: modem-bindingv3.c.o
@@ -204,7 +204,7 @@ modem-bindingv3.o: modem-bindingv3.c.o
 
 # target to build an object file
 modem-bindingv3.c.o:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/modem-bindingv3.c.o
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/modem-bindingv3.c.o
 .PHONY : modem-bindingv3.c.o
 
 modem-bindingv3.i: modem-bindingv3.c.i
@@ -213,7 +213,7 @@ modem-bindingv3.i: modem-bindingv3.c.i
 
 # target to preprocess a source file
 modem-bindingv3.c.i:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/modem-bindingv3.c.i
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/modem-bindingv3.c.i
 .PHONY : modem-bindingv3.c.i
 
 modem-bindingv3.s: modem-bindingv3.c.s
@@ -222,7 +222,7 @@ modem-bindingv3.s: modem-bindingv3.c.s
 
 # target to generate assembly for a file
 modem-bindingv3.c.s:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/modem-bindingv3.c.s
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/modem-bindingv3.c.s
 .PHONY : modem-bindingv3.c.s
 
 rwgpio/rwgpio.o: rwgpio/rwgpio.c.o
@@ -231,7 +231,7 @@ rwgpio/rwgpio.o: rwgpio/rwgpio.c.o
 
 # target to build an object file
 rwgpio/rwgpio.c.o:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/rwgpio/rwgpio.c.o
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rwgpio/rwgpio.c.o
 .PHONY : rwgpio/rwgpio.c.o
 
 rwgpio/rwgpio.i: rwgpio/rwgpio.c.i
@@ -240,7 +240,7 @@ rwgpio/rwgpio.i: rwgpio/rwgpio.c.i
 
 # target to preprocess a source file
 rwgpio/rwgpio.c.i:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/rwgpio/rwgpio.c.i
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rwgpio/rwgpio.c.i
 .PHONY : rwgpio/rwgpio.c.i
 
 rwgpio/rwgpio.s: rwgpio/rwgpio.c.s
@@ -249,7 +249,7 @@ rwgpio/rwgpio.s: rwgpio/rwgpio.c.s
 
 # target to generate assembly for a file
 rwgpio/rwgpio.c.s:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/rwgpio/rwgpio.c.s
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rwgpio/rwgpio.c.s
 .PHONY : rwgpio/rwgpio.c.s
 
 rwserial/rwserial.o: rwserial/rwserial.c.o
@@ -258,7 +258,7 @@ rwserial/rwserial.o: rwserial/rwserial.c.o
 
 # target to build an object file
 rwserial/rwserial.c.o:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/rwserial/rwserial.c.o
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rwserial/rwserial.c.o
 .PHONY : rwserial/rwserial.c.o
 
 rwserial/rwserial.i: rwserial/rwserial.c.i
@@ -267,7 +267,7 @@ rwserial/rwserial.i: rwserial/rwserial.c.i
 
 # target to preprocess a source file
 rwserial/rwserial.c.i:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/rwserial/rwserial.c.i
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rwserial/rwserial.c.i
 .PHONY : rwserial/rwserial.c.i
 
 rwserial/rwserial.s: rwserial/rwserial.c.s
@@ -276,7 +276,7 @@ rwserial/rwserial.s: rwserial/rwserial.c.s
 
 # target to generate assembly for a file
 rwserial/rwserial.c.s:
-	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/serial-modem.dir/build.make gpiod-mlk/CMakeFiles/serial-modem.dir/rwserial/rwserial.c.s
+	cd /home/administrator/Documents/redpesk-try/build && $(MAKE) -f gpiod-mlk/CMakeFiles/modem-bindingv3.dir/build.make gpiod-mlk/CMakeFiles/modem-bindingv3.dir/rwserial/rwserial.c.s
 .PHONY : rwserial/rwserial.c.s
 
 # Help Target
@@ -291,7 +291,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... serial-modem"
+	@echo "... modem-bindingv3"
 	@echo "... HL7692/HL7692-Driver.o"
 	@echo "... HL7692/HL7692-Driver.i"
 	@echo "... HL7692/HL7692-Driver.s"

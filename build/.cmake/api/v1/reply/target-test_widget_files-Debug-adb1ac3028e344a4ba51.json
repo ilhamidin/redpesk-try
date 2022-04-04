@@ -67,7 +67,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 695,
+				"line" : 694,
 				"parent" : 8
 			}
 		]
@@ -75,10 +75,10 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "test_widget_files::@6890427a1f51a3e7e1df"
+			"id" : "populate::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "serial-modem::@78fc2931dacfdf2a70c5"
+			"id" : "modem-bindingv3::@78fc2931dacfdf2a70c5"
 		},
 		{
 			"id" : "htdocs::@e9bbf7d6ea2c94609245"
@@ -93,8 +93,8 @@
 			"id" : "test-files::@aa4c974b243f9dec0e19"
 		}
 	],
-	"id" : "test_widget::@6890427a1f51a3e7e1df",
-	"name" : "test_widget",
+	"id" : "test_widget_files::@6890427a1f51a3e7e1df",
+	"name" : "test_widget_files",
 	"paths" : 
 	{
 		"build" : ".",
@@ -114,7 +114,11 @@
 			"sourceIndexes" : 
 			[
 				1,
-				2
+				2,
+				3,
+				4,
+				5,
+				6
 			]
 		}
 	],
@@ -123,19 +127,43 @@
 		{
 			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/test_widget",
+			"path" : "build/CMakeFiles/test_widget_files",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/test_widget.rule",
+			"path" : "build/CMakeFiles/test_widget_files.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/helloworld-binding-debug-test.wgt.rule",
+			"path" : "build/package-test/icon.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/package-test/config.xml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/package-test/bin/launcher.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/package-test.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/package-test/bin.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

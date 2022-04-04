@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../test"
-  "helloworld-binding-debug-test.wgt"
-  "helloworld-binding-debug.wgt"
+  "modem-binding-debug-test.wgt"
+  "modem-binding-debug.wgt"
   "CMakeFiles/test-tree"
 )
 

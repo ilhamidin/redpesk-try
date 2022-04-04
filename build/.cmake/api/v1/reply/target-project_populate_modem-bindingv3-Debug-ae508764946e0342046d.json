@@ -5,9 +5,10 @@
 		"commands" : 
 		[
 			"add_custom_target",
-			"wgt_package_build",
-			"project_package_build",
-			"include"
+			"generate_one_populate_target",
+			"project_targets_populate",
+			"include",
+			"add_dependencies"
 		],
 		"files" : 
 		[
@@ -55,19 +56,25 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 119,
+				"line" : 117,
 				"parent" : 6
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 748,
+				"line" : 453,
 				"parent" : 7
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 694,
+				"line" : 266,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 268,
 				"parent" : 8
 			}
 		]
@@ -75,26 +82,12 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "populate::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "serial-modem::@78fc2931dacfdf2a70c5"
-		},
-		{
-			"id" : "htdocs::@e9bbf7d6ea2c94609245"
-		},
-		{
-			"id" : "helloworld-config::@fefa895444fa9a70514c"
-		},
-		{
-			"id" : "fixture-files::@f61c24e65c3433d5d598"
-		},
-		{
-			"id" : "test-files::@aa4c974b243f9dec0e19"
+			"backtrace" : 10,
+			"id" : "modem-bindingv3::@78fc2931dacfdf2a70c5"
 		}
 	],
-	"id" : "test_widget_files::@6890427a1f51a3e7e1df",
-	"name" : "test_widget_files",
+	"id" : "project_populate_modem-bindingv3::@6890427a1f51a3e7e1df",
+	"name" : "project_populate_modem-bindingv3",
 	"paths" : 
 	{
 		"build" : ".",
@@ -114,11 +107,7 @@
 			"sourceIndexes" : 
 			[
 				1,
-				2,
-				3,
-				4,
-				5,
-				6
+				2
 			]
 		}
 	],
@@ -127,43 +116,19 @@
 		{
 			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/test_widget_files",
+			"path" : "build/CMakeFiles/project_populate_modem-bindingv3",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/test_widget_files.rule",
+			"path" : "build/CMakeFiles/project_populate_modem-bindingv3.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/package-test/icon.png.rule",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/package-test/config.xml.rule",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/package-test/bin/launcher.rule",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/package-test.rule",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/package-test/bin.rule",
+			"path" : "build/package/lib/afb-modem-bindingv3.so.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

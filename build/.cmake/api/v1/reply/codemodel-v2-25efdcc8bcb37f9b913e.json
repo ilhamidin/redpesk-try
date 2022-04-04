@@ -23,8 +23,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						2,
-						5,
+						4,
 						6,
 						7,
 						8,
@@ -33,6 +32,7 @@
 						11,
 						12,
 						13,
+						14,
 						16,
 						17,
 						18,
@@ -52,7 +52,7 @@
 					"source" : "gpiod-mlk",
 					"targetIndexes" : 
 					[
-						14
+						5
 					]
 				},
 				{
@@ -66,7 +66,7 @@
 					"source" : "htdocs",
 					"targetIndexes" : 
 					[
-						4
+						3
 					]
 				},
 				{
@@ -121,7 +121,7 @@
 					"source" : "test/afb-test/etc",
 					"targetIndexes" : 
 					[
-						3
+						2
 					]
 				},
 				{
@@ -169,7 +169,7 @@
 						7,
 						8
 					],
-					"name" : "helloworld-binding",
+					"name" : "modem-binding",
 					"targetIndexes" : 
 					[
 						0,
@@ -214,13 +214,6 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 0,
-					"id" : "helloworld-binding_build_done::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-helloworld-binding_build_done-Debug-8f46ad3b4f29de7d50bb.json",
-					"name" : "helloworld-binding_build_done",
-					"projectIndex" : 0
-				},
-				{
 					"directoryIndex" : 6,
 					"id" : "helloworld-config::@fefa895444fa9a70514c",
 					"jsonFile" : "target-helloworld-config-Debug-42abc2accf153069ea97.json",
@@ -236,8 +229,22 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "modem-binding_build_done::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-modem-binding_build_done-Debug-07b2eb7a3c4e8052972e.json",
+					"name" : "modem-binding_build_done",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "modem-bindingv3::@78fc2931dacfdf2a70c5",
+					"jsonFile" : "target-modem-bindingv3-Debug-514dc1ca38d30275fc79.json",
+					"name" : "modem-bindingv3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "populate::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-populate-Debug-d6ca11b92232a1f24eb8.json",
+					"jsonFile" : "target-populate-Debug-1869e2edd6583a8096b8.json",
 					"name" : "populate",
 					"projectIndex" : 0
 				},
@@ -278,9 +285,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "project_populate_serial-modem::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-project_populate_serial-modem-Debug-fa82503e0786639bfbfc.json",
-					"name" : "project_populate_serial-modem",
+					"id" : "project_populate_modem-bindingv3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_populate_modem-bindingv3-Debug-ae508764946e0342046d.json",
+					"name" : "project_populate_modem-bindingv3",
 					"projectIndex" : 0
 				},
 				{
@@ -295,13 +302,6 @@
 					"id" : "remote-target-populate::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-remote-target-populate-Debug-395c13b20afed86ce290.json",
 					"name" : "remote-target-populate",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 1,
-					"id" : "serial-modem::@78fc2931dacfdf2a70c5",
-					"jsonFile" : "target-serial-modem-Debug-7e1d447d52c413c8a6a6.json",
-					"name" : "serial-modem",
 					"projectIndex" : 0
 				},
 				{
@@ -321,21 +321,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "test_widget::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_widget-Debug-02515607539be1deca5f.json",
+					"jsonFile" : "target-test_widget-Debug-98ba4be8f40bfd4b9a7c.json",
 					"name" : "test_widget",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_widget_files::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_widget_files-Debug-295ff1dfe53beb1395f2.json",
+					"jsonFile" : "target-test_widget_files-Debug-adb1ac3028e344a4ba51.json",
 					"name" : "test_widget_files",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "widget::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-widget-Debug-d9644f312a77ecc2ee5e.json",
+					"jsonFile" : "target-widget-Debug-42df2f7d26ba2dd3d132.json",
 					"name" : "widget",
 					"projectIndex" : 0
 				},
@@ -349,7 +349,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "widget_files::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-widget_files-Debug-729aa7ca3098690190fb.json",
+					"jsonFile" : "target-widget_files-Debug-5954f2eb3274c0202826.json",
 					"name" : "widget_files",
 					"projectIndex" : 0
 				}

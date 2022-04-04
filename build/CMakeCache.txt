@@ -192,13 +192,13 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_DESCRIPTION:STATIC=Provide an Helloworld Binding
+CMAKE_PROJECT_DESCRIPTION:STATIC=Provide API to communicate with Sierra HL7692 Modem
 
 //Value Computed by CMake
-CMAKE_PROJECT_HOMEPAGE_URL:STATIC=https://github.com/redpesk-samples/helloworld-binding
+CMAKE_PROJECT_HOMEPAGE_URL:STATIC=https://github.com/ilhamidin/redpesk-try.git
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=helloworld-binding
+CMAKE_PROJECT_NAME:STATIC=modem-binding
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.0
@@ -374,6 +374,9 @@ WIDGET_ICON:PATH=/home/administrator/Documents/redpesk-try/conf.d/cmake/wgt/icon
 //XML linter
 XML_CHECKER:STRING=xmllint
 
+//Dependencies for the target
+gpio-mlk_LIB_DEPENDS:STATIC=general;-Wl,--as-needed;general;-Wl,--gc-sections;
+
 //Value Computed by CMake
 helloworld-binding_BINARY_DIR:STATIC=/home/administrator/Documents/redpesk-try/build
 
@@ -385,6 +388,18 @@ helloworld-skeleton_LIB_DEPENDS:STATIC=general;-Wl,--as-needed;general;-Wl,--gc-
 
 //Dependencies for the target
 helloworld-subscribe-event_LIB_DEPENDS:STATIC=general;-Wl,--as-needed;general;-Wl,--gc-sections;
+
+//Value Computed by CMake
+modem-binding_BINARY_DIR:STATIC=/home/administrator/Documents/redpesk-try/build
+
+//Dependencies for the target
+modem-binding_LIB_DEPENDS:STATIC=general;-Wl,--as-needed;general;-Wl,--gc-sections;
+
+//Value Computed by CMake
+modem-binding_SOURCE_DIR:STATIC=/home/administrator/Documents/redpesk-try
+
+//Dependencies for the target
+modem-bindingv3_LIB_DEPENDS:STATIC=general;-Wl,--as-needed;general;-Wl,--gc-sections;
 
 //Path to a library.
 pkgcfg_lib_afb-libhelpers_afb-libhelpers:FILEPATH=/usr/lib/x86_64-linux-gnu/libafb-libhelpers.a

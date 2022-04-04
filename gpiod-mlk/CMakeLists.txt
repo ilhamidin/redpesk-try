@@ -15,7 +15,7 @@
 ###########################################################################
 
 # Add target to project dependency list
-PROJECT_TARGET_ADD(serial-modem)
+PROJECT_TARGET_ADD(modem-bindingv3)
 	# Define project Targets
 	ADD_LIBRARY(${TARGET_NAME} MODULE 
 					modem-bindingv3.c
